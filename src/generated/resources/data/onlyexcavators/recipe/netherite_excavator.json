@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "onlyexcavators:diamond_excavator",
+  "result": {
+    "count": 1,
+    "id": "onlyexcavators:netherite_excavator"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
