@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "onlyexcavators:diamond_excavator"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "onlyexcavators:netherite_excavator",
+    "count": 1
+  }
+}
