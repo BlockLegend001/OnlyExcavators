@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:emerald"
+    },
+    "w": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    " W ",
+    "wSw",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:emerald_excavator"
+  }
+}

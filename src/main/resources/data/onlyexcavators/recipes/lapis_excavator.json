@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "w": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "pattern": [
+    " W ",
+    "wSw",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:lapis_excavator"
+  }
+}

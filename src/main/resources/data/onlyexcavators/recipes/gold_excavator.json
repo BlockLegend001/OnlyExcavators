@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:gold_ingot"
+    },
+    "w": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    " W ",
+    "wSw",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:gold_excavator"
+  }
+}

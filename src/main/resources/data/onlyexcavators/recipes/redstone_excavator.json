@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:redstone"
+    },
+    "w": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    " W ",
+    "wSw",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:redstone_excavator"
+  }
+}
