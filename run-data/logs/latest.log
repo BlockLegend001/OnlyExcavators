@@ -1,0 +1,28 @@
+[22lug2024 16:40:13.350] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlyexcavators, --all, --output, D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\src\generated\resources, --existing, D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\src\main\resources]
+[22lug2024 16:40:13.354] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 17.0.11+9-LTS
+[22lug2024 16:40:13.356] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.11 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[22lug2024 16:40:13.463] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\run-data\config\fml.toml is not correct. Correcting
+[22lug2024 16:40:13.465] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[22lug2024 16:40:13.465] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [detectNonForgeModsToml] was corrected from null to true
+[22lug2024 16:40:13.466] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[22lug2024 16:40:13.478] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[22lug2024 16:40:13.617] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[22lug2024 16:40:14.822] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22lug2024 16:40:15.803] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 8, --mod, onlyexcavators, --all, --output, D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\src\generated\resources, --existing, D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\src\main\resources]
+[22lug2024 16:40:21.749] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.1.0, for MC 1.20.4 with MCP 20231207.112700
+[22lug2024 16:40:21.749] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.1.0 Initialized
+[22lug2024 16:40:21.831] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[22lug2024 16:40:22.034] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'LookupFluidContents' is not a valid config key for config category 'advanced'.
+Valid keys: [CenterSearch, LowMemorySlowSearchEnabled, CatchRenderErrorsEnabled, CheatToHotbarUsingHotkeysEnabled, AddBookmarksToFrontEnabled, lookupFluidContentsEnabled, lookupBlockTagsEnabled, GiveMode, RecipeGuiHeight]
+Skipping this key.
+Config file: D:\Programmazione\Mod\Only Excavators\FORGE\1.20.4\run-data\config\jei\jei-client.ini
+Line #25: "	LookupFluidContents = false"
+[22lug2024 16:40:22.055] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[22lug2024 16:40:22.098] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.752 ms
+[22lug2024 16:40:22.672] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyexcavators]
+[22lug2024 16:40:22.745] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.1.0_mapped_official_1.20.4/forge-1.20.4-49.1.0_mapped_official_1.20.4.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[22lug2024 16:40:22.746] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.1.0_mapped_official_1.20.4/forge-1.20.4-49.1.0_mapped_official_1.20.4.jar%230!/data/.mcassetsroot' uses unexpected schema
+[22lug2024 16:40:22.930] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyexcavators
+[22lug2024 16:40:22.969] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyexcavators finished after 37 ms
+[22lug2024 16:40:22.969] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 38 ms
+[22lug2024 16:40:22.975] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 10, old count: 10, new count: 11, removed stale: 0, written: 0
