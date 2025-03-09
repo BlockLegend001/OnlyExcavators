@@ -1,0 +1,14 @@
+{
+  "item.onlyexcavators.wooden_excavator": "Wooden Excavator",
+  "item.onlyexcavators.stone_excavator": "Stone Excavator",
+  "item.onlyexcavators.iron_excavator": "Iron Excavator",
+  "item.onlyexcavators.gold_excavator": "Gold Excavator",
+  "item.onlyexcavators.lapis_excavator": "Lapis Excavator",
+  "item.onlyexcavators.redstone_excavator": "Redstone Excavator",
+  "item.onlyexcavators.diamond_excavator": "Diamond Excavator",
+  "item.onlyexcavators.emerald_excavator": "Emerald Excavator",
+  "item.onlyexcavators.obsidian_excavator": "Obsidian Excavator",
+  "item.onlyexcavators.netherite_excavator": "Netherite Excavator",
+
+  "itemGroup.onlyexcavators": "Only Excavators"
+}
