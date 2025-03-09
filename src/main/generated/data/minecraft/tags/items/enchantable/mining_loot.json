@@ -1,0 +1,14 @@
+{
+  "values": [
+    "onlyexcavators:wooden_excavator",
+    "onlyexcavators:stone_excavator",
+    "onlyexcavators:iron_excavator",
+    "onlyexcavators:gold_excavator",
+    "onlyexcavators:lapis_excavator",
+    "onlyexcavators:redstone_excavator",
+    "onlyexcavators:obsidian_excavator",
+    "onlyexcavators:diamond_excavator",
+    "onlyexcavators:emerald_excavator",
+    "onlyexcavators:netherite_excavator"
+  ]
+}

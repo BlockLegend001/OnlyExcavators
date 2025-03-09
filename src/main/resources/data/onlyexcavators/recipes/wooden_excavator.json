@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WSW",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:wooden_excavator"
+  }
+}
