@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WSW",
+    " S "
+  ],
+  "result": {
+    "id": "onlyexcavators:obsidian_excavator"
+  }
+}
