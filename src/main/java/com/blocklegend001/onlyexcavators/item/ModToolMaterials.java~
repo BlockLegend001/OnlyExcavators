@@ -1,0 +1,132 @@
+package com.blocklegend001.onlyexcavators.item;
+
+import java.util.List;
+
+import com.blocklegend001.onlyexcavators.ModConfigs;
+import com.blocklegend001.onlyexcavators.utils.ModTags;
+import net.minecraft.core.Holder;
+import net.minecraft.core.HolderGetter;
+import net.minecraft.core.HolderSet;
+import net.minecraft.core.Registry;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.component.Tool;
+import net.minecraft.world.item.component.Weapon;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+
+public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durability, float speed,
+                               float attackDamageBonus, int enchantmentValue, TagKey<Item> repairItems) {
+
+    private Item.Properties applyCommonProperties(Item.Properties properties) {
+        return properties.durability(this.durability).repairable(this.repairItems).enchantable(this.enchantmentValue);
+    }
+
+    public Item.Properties applyToolProperties(Item.Properties properties, TagKey<Block> mineableBlocks, float attackDamage, float attackSpeed, float p_399983_) {
+        HolderGetter<Block> holdergetter = BuiltInRegistries.acquireBootstrapRegistrationLookup((Registry) BuiltInRegistries.BLOCK);
+        return applyCommonProperties(properties).component(DataComponents.TOOL, new Tool(List.of(Tool.Rule.deniesDrops((HolderSet) holdergetter.getOrThrow(this.incorrectBlocksForDrops)), Tool.Rule.minesAndDrops((HolderSet) holdergetter.getOrThrow(mineableBlocks), this.speed)), 1.0F, 1, true)).attributes(createToolAttributes(attackDamage, attackSpeed)).component(DataComponents.WEAPON, new Weapon(2, p_399983_));
+    }
+
+    private ItemAttributeModifiers createToolAttributes(float attackDamage, float attackSpeed) {
+        return ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(Item.BASE_ATTACK_DAMAGE_ID, (attackDamage + this.attackDamageBonus), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).add(Attributes.ATTACK_SPEED, new AttributeModifier(Item.BASE_ATTACK_SPEED_ID, attackSpeed, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build();
+    }
+
+    public static final ToolMaterial WOODEN_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_WOODEN_TOOL,
+            ModConfigs.durabilityWoodenExcavator,
+            2,
+            0.0F,
+            15,
+            ItemTags.WOODEN_TOOL_MATERIALS
+    );
+
+    public static final ToolMaterial STONE_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_STONE_TOOL,
+            ModConfigs.durabilityStoneExcavator,
+            4,
+            1.0F,
+            5,
+            ItemTags.STONE_TOOL_MATERIALS
+    );
+
+    public static final ToolMaterial IRON_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_IRON_TOOL,
+            ModConfigs.durabilityIronExcavator,
+            6,
+            2.0F,
+            14,
+            ItemTags.IRON_TOOL_MATERIALS
+    );
+
+    public static final ToolMaterial GOLD_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_GOLD_TOOL,
+            ModConfigs.durabilityGoldExcavator,
+            12,
+            0.0F,
+            22,
+            ItemTags.GOLD_TOOL_MATERIALS
+    );
+
+    public static final ToolMaterial LAPIS_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_IRON_TOOL,
+            ModConfigs.durabilityLapisExcavator,
+            6,
+            2.0F,
+            14,
+            ModTags.REPAIRS_LAPIS_EXCAVATORS
+    );
+
+    public static final ToolMaterial REDSTONE_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_IRON_TOOL,
+            ModConfigs.durabilityRedstoneExcavator,
+            6,
+            2.0F,
+            14,
+            ModTags.REPAIRS_REDSTONE_EXCAVATORS
+    );
+
+    public static final ToolMaterial DIAMOND_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            ModConfigs.durabilityDiamondExcavator,
+            8,
+            3.0F,
+            10,
+            ItemTags.DIAMOND_TOOL_MATERIALS
+    );
+
+    public static final ToolMaterial EMERALD_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            ModConfigs.durabilityEmeraldExcavator,
+            9,
+            4.0F,
+            15,
+            ModTags.REPAIRS_EMERALD_EXCAVATORS
+    );
+
+    public static final ToolMaterial OBSIDIAN_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            ModConfigs.durabilityObsidianExcavator,
+            9,
+            4.0F,
+            10,
+            ModTags.REPAIRS_OBSIDIAN_EXCAVATORS
+    );
+
+    public static final ToolMaterial NETHERITE_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            ModConfigs.durabilityNetheriteExcavator,
+            9,
+            4.0F,
+            15,
+            ItemTags.NETHERITE_TOOL_MATERIALS
+    );
+}
