@@ -30,18 +30,6 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
-loom {
-    splitEnvironmentSourceSets()
-
-    mods {
-        "modid" {
-            sourceSet sourceSets.main
-            sourceSet sourceSets.client
-        }
-    }
-
-}
-
 fabricApi {
     configureDataGeneration()
 }
@@ -131,4 +119,10 @@ publishMods {
         minecraftVersions.add(minecraft_version)
         requires("fabric-api")
     }
+}
+
+tasks.publishMods.group = "other"
+tasks.register("publishAll") {
+    group = "publishing"
+    dependsOn(tasks.publishMods)
 }
