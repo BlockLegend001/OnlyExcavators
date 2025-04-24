@@ -2,6 +2,7 @@ package com.blocklegend001.onlyexcavators;
 
 import com.blocklegend001.onlyexcavators.item.ModCreativeModeTabs;
 import com.blocklegend001.onlyexcavators.item.ModItems;
+import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,14 +18,15 @@ import org.slf4j.Logger;
 public class OnlyExcavators {
 
     public static final String MOD_ID = "onlyexcavators";
-    private static final Logger LOGGER = LogUtils.getLogger();
-
+    public static final Logger LOGGER = LogUtils.getLogger();
+    
     public OnlyExcavators(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
         context.registerConfig(ModConfig.Type.COMMON, ModConfigs.SPEC, "onlyexcavators.toml");
         ModConfigs.loadConfig(ModConfigs.SPEC, FMLPaths.CONFIGDIR.get().resolve("onlyexcavators.toml"));
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        MinecraftForge.EVENT_BUS.register(ExcavatorOverlayRenderer.class);
         modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }

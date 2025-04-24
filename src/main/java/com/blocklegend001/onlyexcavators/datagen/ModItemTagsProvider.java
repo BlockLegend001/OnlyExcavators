@@ -7,7 +7,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
@@ -22,11 +21,6 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
-        tag(ModTags.REPAIRS_LAPIS_EXCAVATORS).add(Items.LAPIS_LAZULI);
-        tag(ModTags.REPAIRS_REDSTONE_EXCAVATORS).add(Items.REDSTONE);
-        tag(ModTags.REPAIRS_EMERALD_EXCAVATORS).add(Items.EMERALD);
-        tag(ModTags.REPAIRS_OBSIDIAN_EXCAVATORS).add(Items.OBSIDIAN);
-
         tag(ModTags.WOODEN_EXCAVATORS).add(ModItems.WOODEN_EXCAVATOR.get());
         tag(ModTags.STONE_EXCAVATORS).add(ModItems.STONE_EXCAVATOR.get());
         tag(ModTags.IRON_EXCAVATORS).add(ModItems.IRON_EXCAVATOR.get());

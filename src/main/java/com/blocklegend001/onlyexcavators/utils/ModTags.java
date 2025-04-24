@@ -6,30 +6,27 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
-public class ModTags {
-    public static final TagKey<Item> WOODEN_EXCAVATORS = modItemTag("wooden_excavators");
-    public static final TagKey<Item> STONE_EXCAVATORS = modItemTag("stone_excavators");
-    public static final TagKey<Item> IRON_EXCAVATORS = modItemTag("iron_excavators");
-    public static final TagKey<Item> GOLD_EXCAVATORS = modItemTag("gold_excavators");
-    public static final TagKey<Item> LAPIS_EXCAVATORS = modItemTag("lapis_excavators");
-    public static final TagKey<Item> REDSTONE_EXCAVATORS = modItemTag("redstone_excavators");
-    public static final TagKey<Item> DIAMOND_EXCAVATORS = modItemTag("diamond_excavators");
-    public static final TagKey<Item> EMERALD_EXCAVATORS = modItemTag("emerald_excavators");
-    public static final TagKey<Item> OBSIDIAN_EXCAVATORS = modItemTag("obsidian_excavators");
-    public static final TagKey<Item> NETHERITE_EXCAVATORS = modItemTag("netherite_excavators");
+public final class ModTags {
+    public static final TagKey<Item> WOODEN_EXCAVATORS = bind("wooden_excavators");
+    public static final TagKey<Item> STONE_EXCAVATORS = bind("stone_excavators");
+    public static final TagKey<Item> IRON_EXCAVATORS = bind("iron_excavators");
+    public static final TagKey<Item> GOLD_EXCAVATORS = bind("gold_excavators");
+    public static final TagKey<Item> LAPIS_EXCAVATORS = bind("lapis_excavators");
+    public static final TagKey<Item> REDSTONE_EXCAVATORS = bind("redstone_excavators");
+    public static final TagKey<Item> DIAMOND_EXCAVATORS = bind("diamond_excavators");
+    public static final TagKey<Item> EMERALD_EXCAVATORS = bind("emerald_excavators");
+    public static final TagKey<Item> OBSIDIAN_EXCAVATORS = bind("obsidian_excavators");
+    public static final TagKey<Item> NETHERITE_EXCAVATORS = bind("netherite_excavators");
 
-    public static final TagKey<Item> REPAIRS_LAPIS_EXCAVATORS = modItemTag("repairs_lapis_excavators");
-    public static final TagKey<Item> REPAIRS_REDSTONE_EXCAVATORS = modItemTag("repairs_redstone_excavators");
-    public static final TagKey<Item> REPAIRS_EMERALD_EXCAVATORS = modItemTag("repairs_emerald_excavators");
-    public static final TagKey<Item> REPAIRS_OBSIDIAN_EXCAVATORS = modItemTag("repairs_obsidian_excavators");
-
-    public static TagKey<Item> itemTag(ResourceLocation tagLoc)
-    {
-        return TagKey.create(Registries.ITEM, tagLoc);
+    private static TagKey<Item> bind(String string) {
+        return TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyExcavators.MOD_ID, string));  // Usa il tuo namespace
     }
 
-    private static TagKey<Item> modItemTag(String tagName)
-    {
-        return ModTags.itemTag(ResourceLocation.fromNamespaceAndPath(OnlyExcavators.MOD_ID, tagName));
+    public static TagKey<Item> create(String namepsace, String path) {
+        return create(ResourceLocation.fromNamespaceAndPath(namepsace, path));
+    }
+
+    public static TagKey<Item> create(ResourceLocation name) {
+        return TagKey.create(Registries.ITEM, name);
     }
 }
