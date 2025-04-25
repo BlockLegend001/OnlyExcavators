@@ -44,7 +44,6 @@ public class OnlyExcavators {
         ModConfigs.loadConfig();
         NeoForge.EVENT_BUS.register(ModEvents.class);
         ModItems.register(eventBus);
-        NeoForge.EVENT_BUS.register(ExcavatorOverlayRenderer.class);
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }
