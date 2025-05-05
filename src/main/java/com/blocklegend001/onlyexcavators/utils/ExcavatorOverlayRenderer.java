@@ -14,6 +14,7 @@ import net.minecraft.util.math.Direction;
 import org.joml.Matrix4f;
 
 public class ExcavatorOverlayRenderer {
+
     public static void init() {
         WorldRenderEvents.AFTER_ENTITIES.register(context -> {
             MinecraftClient client = MinecraftClient.getInstance();
@@ -26,7 +27,12 @@ public class ExcavatorOverlayRenderer {
 
             Direction side = blockHit.getSide();
             BlockPos origin = blockHit.getBlockPos();
-            int range = 1;
+            int range;
+            if (client.player.isSneaking()) {
+                range = 0;
+            } else {
+                range = 1;
+            }
 
             if (!client.world.getBlockState(origin).isIn(BlockTags.SHOVEL_MINEABLE)) return;
 
