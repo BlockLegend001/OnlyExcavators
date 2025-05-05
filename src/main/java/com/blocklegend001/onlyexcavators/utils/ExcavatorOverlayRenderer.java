@@ -35,7 +35,12 @@ public class ExcavatorOverlayRenderer {
 
         BlockPos origin = blockHit.getBlockPos();
         Direction side = blockHit.getDirection();
-        int range = 1;
+        int range;
+        if (mc.player.isShiftKeyDown()) {
+            range = 0;
+        } else {
+            range = 1;
+        }
 
         if (!mc.level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_SHOVEL)) return;
 
