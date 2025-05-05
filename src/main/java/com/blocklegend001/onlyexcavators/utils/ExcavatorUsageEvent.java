@@ -18,6 +18,7 @@ import static com.blocklegend001.onlyexcavators.item.custom.Excavator.getBlocksT
 
 public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
+    public static boolean isSneaking = false;
 
     @Override
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
@@ -32,7 +33,7 @@ public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
         HARVESTED_BLOCKS.add(pos);
 
         try {
-            int radius = ExcavatorSneakState.isSneaking ? 0 : 1;
+            int radius = isSneaking ? 0 : 1;
             for (BlockPos targetPos : getBlocksToBeDestroyed(radius, pos, serverPlayer)) {
                 if (targetPos.equals(pos)) continue;
 

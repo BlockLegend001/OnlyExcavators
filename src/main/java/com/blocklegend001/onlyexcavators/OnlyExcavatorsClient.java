@@ -1,7 +1,7 @@
 package com.blocklegend001.onlyexcavators;
 
 import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
-import com.blocklegend001.onlyexcavators.utils.ExcavatorSneakState;
+import com.blocklegend001.onlyexcavators.utils.ExcavatorUsageEvent;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackBlockCallback;
 import net.minecraft.util.ActionResult;
@@ -12,7 +12,7 @@ public class OnlyExcavatorsClient implements ClientModInitializer {
         ExcavatorOverlayRenderer.init();
         AttackBlockCallback.EVENT.register((player, world, hand, pos, direction) -> {
             if (world.isClient) {
-                ExcavatorSneakState.isSneaking = player.isSneaking();
+                ExcavatorUsageEvent.isSneaking = player.isSneaking();
             }
             return ActionResult.PASS;
         });
