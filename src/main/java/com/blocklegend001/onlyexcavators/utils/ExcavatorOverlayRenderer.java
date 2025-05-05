@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.*;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
@@ -19,7 +18,6 @@ public class ExcavatorOverlayRenderer {
     public static void init() {
         WorldRenderEvents.AFTER_ENTITIES.register(context -> {
             MinecraftClient client = MinecraftClient.getInstance();
-            PlayerEntity player = client.player;
             if (client.world == null || client.player == null) return;
 
             ItemStack heldItem = client.player.getMainHandStack();
@@ -30,7 +28,7 @@ public class ExcavatorOverlayRenderer {
             Direction side = blockHit.getSide();
             BlockPos origin = blockHit.getBlockPos();
             int range;
-            if (player.isSneaking()) {
+            if (client.player.isSneaking()) {
                 range = 0;
             } else {
                 range = 1;
