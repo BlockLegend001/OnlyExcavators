@@ -14,28 +14,37 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before{
+import static com.blocklegend001.onlyexcavators.item.custom.Excavator.getBlocksToBeDestroyed;
+
+public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 
     @Override
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
                                     BlockState state, @Nullable BlockEntity blockEntity) {
+        if (!(player instanceof ServerPlayerEntity serverPlayer)) return true;
+
         ItemStack mainHandItem = player.getMainHandStack();
+        if (!(mainHandItem.getItem() instanceof Excavator excavator)) return true;
 
-        if(mainHandItem.getItem() instanceof Excavator excavator && player instanceof ServerPlayerEntity serverPlayer) {
-            if(HARVESTED_BLOCKS.contains(pos)) {
-                return true;
+        if (HARVESTED_BLOCKS.contains(pos)) return true;
+
+        HARVESTED_BLOCKS.add(pos);
+
+        try {
+            int radius = ExcavatorSneakState.isSneaking ? 0 : 1;
+            for (BlockPos targetPos : getBlocksToBeDestroyed(radius, pos, serverPlayer)) {
+                if (targetPos.equals(pos)) continue;
+
+                if (HARVESTED_BLOCKS.contains(targetPos)) continue;
+                if (!excavator.isCorrectForDrops(mainHandItem, world.getBlockState(targetPos))) continue;
+
+                HARVESTED_BLOCKS.add(targetPos);
+                serverPlayer.interactionManager.tryBreakBlock(targetPos);
+                HARVESTED_BLOCKS.remove(targetPos);
             }
-
-            for(BlockPos position : Excavator.getBlocksToBeDestroyed(1, pos, serverPlayer)) {
-                if(pos == position || !excavator.isCorrectForDrops(mainHandItem, world.getBlockState(position))) {
-                    continue;
-                }
-
-                HARVESTED_BLOCKS.add(position);
-                serverPlayer.interactionManager.tryBreakBlock(position);
-                HARVESTED_BLOCKS.remove(position);
-            }
+        } finally {
+            HARVESTED_BLOCKS.remove(pos);
         }
 
         return true;
