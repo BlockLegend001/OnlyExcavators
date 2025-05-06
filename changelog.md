@@ -1,1 +1,2 @@
-- Now you can break block in creative mode
+- If the player is sneaking (shift held), the Excavator will only break the single targeted block.
+- Fixed a bug that caused the server to crash
