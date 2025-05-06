@@ -1,7 +1,7 @@
 package com.blocklegend001.onlyexcavators;
 
+import com.blocklegend001.onlyexcavators.event.ModEvents;
 import com.blocklegend001.onlyexcavators.item.ModItems;
-import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -43,7 +43,6 @@ public class OnlyExcavators {
         ModConfigs.loadConfig();
         NeoForge.EVENT_BUS.register(ModEvents.class);
         ModItems.register(eventBus);
-        NeoForge.EVENT_BUS.register(ExcavatorOverlayRenderer.class);
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }
