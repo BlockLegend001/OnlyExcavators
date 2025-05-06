@@ -42,7 +42,13 @@ public class LevelRendererMixin {
 
         BlockPos origin = blockHit.getBlockPos();
         Direction side = blockHit.getDirection();
-        int range = 1;
+        int range;
+        if (Minecraft.getInstance().player.isShiftKeyDown()) {
+            range = 0;
+        } else {
+            range = 1;
+        }
+
 
         if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_SHOVEL)) {
             return;
