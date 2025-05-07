@@ -1,0 +1,30 @@
+#Durability of the emerald excavator.
+#Range: > 0
+DurabilityEmeraldExcavator = 9768
+#Durability of the lapis excavator.
+#Range: > 0
+DurabilityLapisExcavator = 1100
+#Durability of the obsidian excavator.
+#Range: > 0
+DurabilityObsidianExcavator = 11200
+#Durability of the stone excavator.
+#Range: > 0
+DurabilityStoneExcavator = 650
+#Durability of the netherite excavator.
+#Range: > 0
+DurabilityNetheriteExcavator = 13675
+#Durability of the iron excavator.
+#Range: > 0
+DurabilityIronExcavator = 1300
+#Durability of the gold excavator.
+#Range: > 0
+DurabilityGoldExcavator = 750
+#Durability of the redstone excavator.
+#Range: > 0
+DurabilityRedstoneExcavator = 1100
+#Durability of the wooden excavator.
+#Range: > 0
+DurabilityWoodenExcavator = 302
+#Durability of the diamond excavator.
+#Range: > 0
+DurabilityDiamondExcavator = 8025

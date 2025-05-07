@@ -1,2 +1,1 @@
-- If the player is sneaking (shift held), the Excavator will only break the single targeted block.
-- Fixed a bug that caused the server to crash
+- Changed Recipe Registry System

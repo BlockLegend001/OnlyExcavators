@@ -1,22 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "key": {
+    "B": {
+      "item": "minecraft:diamond"
+    },
     "S": {
       "item": "minecraft:stick"
     },
-    "W": {
-      "item": "minecraft:diamond"
-    },
-    "w": {
+    "b": {
       "item": "minecraft:diamond_block"
     }
   },
   "pattern": [
-    " W ",
-    "wSw",
+    " B ",
+    "bSb",
     " S "
   ],
   "result": {
+    "count": 1,
     "id": "onlyexcavators:diamond_excavator"
   }
 }
