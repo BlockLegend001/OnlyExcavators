@@ -2,7 +2,6 @@ package com.blocklegend001.onlyexcavators;
 
 import com.blocklegend001.onlyexcavators.item.ModCreativeModeTabs;
 import com.blocklegend001.onlyexcavators.item.ModItems;
-import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,7 +25,6 @@ public class OnlyExcavators {
         ModConfigs.loadConfig(ModConfigs.SPEC, FMLPaths.CONFIGDIR.get().resolve("onlyexcavators.toml"));
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-        MinecraftForge.EVENT_BUS.register(ExcavatorOverlayRenderer.class);
         modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
