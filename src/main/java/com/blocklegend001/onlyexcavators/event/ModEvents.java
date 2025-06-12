@@ -2,6 +2,7 @@ package com.blocklegend001.onlyexcavators.event;
 
 import com.blocklegend001.onlyexcavators.OnlyExcavators;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
+import com.blocklegend001.onlyexcavators.utils.RadiusMap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
@@ -32,7 +33,7 @@ public class ModEvents {
         HARVESTED_BLOCKS.add(event.getPos());
 
         try {
-            int radius = isSneaking ? 0 : 1;
+            int radius = isSneaking ? 0 : RadiusMap.getExcavatorRadius().get(mainHandItem.getItem());
             for (BlockPos targetPos : Excavator.getBlocksToBeDestroyed(radius, event.getPos(), serverPlayer)) {
                 if (targetPos.equals(event.getPos())) continue;
 
