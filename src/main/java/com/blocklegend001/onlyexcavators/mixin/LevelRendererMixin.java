@@ -2,6 +2,7 @@ package com.blocklegend001.onlyexcavators.mixin;
 
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
+import com.blocklegend001.onlyexcavators.utils.RadiusMap;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Camera;
 import net.minecraft.client.DeltaTracker;
@@ -46,7 +47,7 @@ public class LevelRendererMixin {
         if (Minecraft.getInstance().player.isShiftKeyDown()) {
             range = 0;
         } else {
-            range = 1;
+            range = RadiusMap.getExcavatorRadius().get(heldItem.getItem());
         }
 
         if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_SHOVEL)) {

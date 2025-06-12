@@ -14,16 +14,27 @@ public class ModConfigs {
     private static final File CONFIG_FILE = new File("config/onlyexcavators-common.toml");
 
     // Configurazioni per gli Excavators
-    public static int DurabilityWoodenExcavator = 302;  // Durabilità dell'escavatore di legno
-    public static int DurabilityStoneExcavator = 650;   // Durabilità dell'escavatore di pietra
-    public static int DurabilityIronExcavator = 1300;    // Durabilità dell'escavatore di ferro
-    public static int DurabilityGoldExcavator = 750;     // Durabilità dell'escavatore d'oro
-    public static int DurabilityLapisExcavator = 1100;   // Durabilità dell'escavatore di lapislazzuli
-    public static int DurabilityRedstoneExcavator = 1100; // Durabilità dell'escavatore di redstone
-    public static int DurabilityObsidianExcavator = 11200; // Durabilità dell'escavatore di ossidiana
-    public static int DurabilityDiamondExcavator = 8025;  // Durabilità dell'escavatore di diamante
-    public static int DurabilityEmeraldExcavator = 9768;   // Durabilità dell'escavatore di smeraldo
-    public static int DurabilityNetheriteExcavator = 13675; // Durabilità dell'escavatore di netherite
+    public static int DurabilityWoodenExcavator = 302;
+    public static int DurabilityStoneExcavator = 650;
+    public static int DurabilityIronExcavator = 1300;
+    public static int DurabilityGoldExcavator = 750;
+    public static int DurabilityLapisExcavator = 1100;
+    public static int DurabilityRedstoneExcavator = 1100;
+    public static int DurabilityObsidianExcavator = 11200;
+    public static int DurabilityDiamondExcavator = 8025;
+    public static int DurabilityEmeraldExcavator = 9768;
+    public static int DurabilityNetheriteExcavator = 13675;
+
+    public static int radiusWoodenExcavator = 1;
+    public static int radiusStoneExcavator = 1;
+    public static int radiusIronExcavator = 1;
+    public static int radiusGoldExcavator = 1;
+    public static int radiusLapisExcavator = 1;
+    public static int radiusRedstoneExcavator = 1;
+    public static int radiusObsidianExcavator = 1;
+    public static int radiusDiamondExcavator = 1;
+    public static int radiusEmeraldExcavator = 1;
+    public static int radiusNetheriteExcavator = 1;
 
     public static void loadConfig() {
         if (!CONFIG_FILE.exists()) {
@@ -42,6 +53,17 @@ public class ModConfigs {
                 DurabilityDiamondExcavator = config.get("DurabilityDiamondExcavator").getAsInt();
                 DurabilityEmeraldExcavator = config.get("DurabilityEmeraldExcavator").getAsInt();
                 DurabilityNetheriteExcavator = config.get("DurabilityNetheriteExcavator").getAsInt();
+
+                radiusWoodenExcavator = config.get("radiusWoodenExcavator").getAsInt();
+                radiusStoneExcavator = config.get("radiusStoneExcavator").getAsInt();
+                radiusIronExcavator = config.get("radiusIronExcavator").getAsInt();
+                radiusGoldExcavator = config.get("radiusGoldExcavator").getAsInt();
+                radiusLapisExcavator = config.get("radiusLapisExcavator").getAsInt();
+                radiusRedstoneExcavator = config.get("radiusRedstoneExcavator").getAsInt();
+                radiusObsidianExcavator = config.get("radiusObsidianExcavator").getAsInt();
+                radiusDiamondExcavator = config.get("radiusDiamondExcavator").getAsInt();
+                radiusEmeraldExcavator = config.get("radiusEmeraldExcavator").getAsInt();
+                radiusNetheriteExcavator = config.get("radiusNetheriteExcavator").getAsInt();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -61,6 +83,17 @@ public class ModConfigs {
         config.addProperty("DurabilityDiamondExcavator", DurabilityDiamondExcavator);
         config.addProperty("DurabilityEmeraldExcavator", DurabilityEmeraldExcavator);
         config.addProperty("DurabilityNetheriteExcavator", DurabilityNetheriteExcavator);
+
+        config.addProperty("radiusWoodenExcavator", radiusWoodenExcavator);
+        config.addProperty("radiusStoneExcavator", radiusStoneExcavator);
+        config.addProperty("radiusIronExcavator", radiusIronExcavator);
+        config.addProperty("radiusGoldExcavator", radiusGoldExcavator);
+        config.addProperty("radiusLapisExcavator", radiusLapisExcavator);
+        config.addProperty("radiusRedstoneExcavator", radiusRedstoneExcavator);
+        config.addProperty("radiusObsidianExcavator", radiusObsidianExcavator);
+        config.addProperty("radiusDiamondExcavator", radiusDiamondExcavator);
+        config.addProperty("radiusEmeraldExcavator", radiusEmeraldExcavator);
+        config.addProperty("radiusNetheriteExcavator", radiusNetheriteExcavator);
 
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
