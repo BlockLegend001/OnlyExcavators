@@ -2,6 +2,7 @@ package com.blocklegend001.onlyexcavators.mixin;
 
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
+import com.blocklegend001.onlyexcavators.utils.RadiusMap;
 import com.mojang.blaze3d.resource.GraphicsResourceAllocator;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Camera;
@@ -16,6 +17,7 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.common.ForgeConfigSpec;
 import org.joml.Matrix4f;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -46,7 +48,7 @@ public class LevelRendererMixin {
         if (Minecraft.getInstance().player.isShiftKeyDown()) {
             range = 0;
         } else {
-            range = 1;
+            range = RadiusMap.getExcavatorRadius().get(heldItem.getItem());
         }
 
 
