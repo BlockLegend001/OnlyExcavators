@@ -1,11 +1,16 @@
 package com.blocklegend001.onlyexcavators.item.custom;
 
 import net.minecraft.block.Block;
+import net.minecraft.component.type.TooltipDisplayComponent;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
@@ -13,6 +18,9 @@ import net.minecraft.util.math.Direction;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
+
+import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS_MAP;
 
 public class Excavator extends Item {
 
@@ -60,6 +68,26 @@ public class Excavator extends Item {
         }
 
         return positions;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+        int radius = getRadiusForExcavator(stack);
+
+        Text text = Text.empty()
+                .append(Text.literal("Dig Radius: ").formatted(Formatting.GRAY))
+                .append(Text.literal(String.valueOf(radius)).formatted(Formatting.YELLOW))
+                .append(Text.literal(" Blocks").formatted(Formatting.GRAY));
+        textConsumer.accept(text);
+
+        super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+    }
+
+    private int getRadiusForExcavator(ItemStack stack) {
+        if (EXCAVATOR_RADIUS_MAP.containsKey(stack.getItem())) {
+            return EXCAVATOR_RADIUS_MAP.get(stack.getItem());
+        }
+        return 0;
     }
 
     private static ToolMaterial wrapMaterial(ToolMaterial toolMaterial, int durability) {

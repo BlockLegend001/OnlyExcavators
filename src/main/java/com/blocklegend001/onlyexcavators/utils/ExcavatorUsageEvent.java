@@ -15,6 +15,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import static com.blocklegend001.onlyexcavators.item.custom.Excavator.getBlocksToBeDestroyed;
+import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS_MAP;
 
 public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
@@ -33,7 +34,7 @@ public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
         HARVESTED_BLOCKS.add(pos);
 
         try {
-            int radius = isSneaking ? 0 : 1;
+            int radius = isSneaking ? 0 : EXCAVATOR_RADIUS_MAP.get(mainHandItem.getItem());
             for (BlockPos targetPos : getBlocksToBeDestroyed(radius, pos, serverPlayer)) {
                 if (targetPos.equals(pos)) continue;
 
