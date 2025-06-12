@@ -1,9 +1,13 @@
 package com.blocklegend001.onlyexcavators.item.custom;
 
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
@@ -11,6 +15,8 @@ import net.minecraft.util.math.Direction;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS_MAP;
 
 public class Excavator extends MiningToolItem {
     public Excavator(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
@@ -49,5 +55,26 @@ public class Excavator extends MiningToolItem {
         }
 
         return positions;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        int radius = getRadiusForScythe(stack);
+
+        Text text = Text.empty()
+                .append(Text.literal("Dig Radius: ").formatted(Formatting.GRAY))
+                .append(Text.literal(String.valueOf(radius)).formatted(Formatting.YELLOW))
+                .append(Text.literal(" Blocks").formatted(Formatting.GRAY));
+
+        tooltip.add(text);
+
+        super.appendTooltip(stack, context, tooltip, type);
+    }
+
+    private int getRadiusForScythe(ItemStack stack) {
+        if (EXCAVATOR_RADIUS_MAP.containsKey(stack.getItem())) {
+            return EXCAVATOR_RADIUS_MAP.get(stack.getItem());
+        }
+        return 0;
     }
 }
