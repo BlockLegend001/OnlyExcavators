@@ -13,6 +13,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Direction;
 import org.joml.Matrix4f;
 
+import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS_MAP;
+
 public class ExcavatorOverlayRenderer {
 
     public static void init() {
@@ -31,7 +33,7 @@ public class ExcavatorOverlayRenderer {
             if (client.player.isSneaking()) {
                 range = 0;
             } else {
-                range = 1;
+                range = EXCAVATOR_RADIUS_MAP.get(heldItem.getItem());
             }
 
             if (!client.world.getBlockState(origin).isIn(BlockTags.SHOVEL_MINEABLE)) return;
