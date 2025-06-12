@@ -3,9 +3,7 @@ package com.blocklegend001.onlyexcavators.utils;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.VertexConsumer;
-import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.render.*;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.hit.BlockHitResult;
@@ -14,6 +12,8 @@ import net.minecraft.util.math.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Direction;
 import org.joml.Matrix4f;
+
+import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS_MAP;
 
 public class ExcavatorOverlayRenderer {
 
@@ -33,7 +33,7 @@ public class ExcavatorOverlayRenderer {
             if (client.player.isSneaking()) {
                 range = 0;
             } else {
-                range = 1;
+                range = EXCAVATOR_RADIUS_MAP.get(heldItem.getItem());
             }
 
             if (!client.world.getBlockState(origin).isIn(BlockTags.SHOVEL_MINEABLE)) return;
