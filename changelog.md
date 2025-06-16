@@ -1,5 +1,1 @@
-- Added support for configuring the excavation radius for each Excavator via config file.
-- Each Excavator now displays a tooltip showing its excavation radius based on the current config.
-- Improved config readability with clear comments and spacing between durability and radius sections.
-
-**WARNING**: This update requires a regeneration of the config file.
+- Improve tooltip by showing excavation area dimensions instead of radius
