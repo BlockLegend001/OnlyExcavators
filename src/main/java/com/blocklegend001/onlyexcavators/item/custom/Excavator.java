@@ -64,11 +64,11 @@ public class Excavator extends Item {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay tooltip, Consumer<Component> consumer, TooltipFlag type) {
         int radius = getRadiusForExcavator(stack);
+        int widht = radius * 2 + 1;
 
-        Component text = Component.empty()
-                .append(Component.literal("Dig Radius: ").withStyle(ChatFormatting.GRAY))
-                .append(Component.literal(String.valueOf(radius)).withStyle(ChatFormatting.YELLOW))
-                .append(Component.literal(" Blocks").withStyle(ChatFormatting.GRAY));
+        Component text = Component.literal("Dig area: ")
+                .withStyle(ChatFormatting.GRAY)
+                .append(Component.literal(widht + "x1").withStyle(ChatFormatting.YELLOW));
 
         consumer.accept(text);
 
