@@ -65,11 +65,11 @@ public class Excavator extends MiningToolItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         int radius = getRadiusForExcavator(stack);
+        int width = radius * 2 + 1;
 
-        Text text = Text.empty()
-                .append(Text.literal("Dig Radius: ").formatted(Formatting.GRAY))
-                .append(Text.literal(String.valueOf(radius)).formatted(Formatting.YELLOW))
-                .append(Text.literal(" Blocks").formatted(Formatting.GRAY));
+        Text text = Text.literal("Dig area: ")
+                .formatted(Formatting.GRAY)
+                .append(Text.literal(width + "x1").formatted(Formatting.YELLOW));
 
         tooltip.add(text);
 
@@ -77,9 +77,10 @@ public class Excavator extends MiningToolItem {
     }
 
     private int getRadiusForExcavator(ItemStack stack) {
-         if (EXCAVATOR_RADIUS_MAP.containsKey(stack.getItem())) {
+        if (EXCAVATOR_RADIUS_MAP.containsKey(stack.getItem())) {
             return EXCAVATOR_RADIUS_MAP.get(stack.getItem());
         }
         return 0;
     }
+
 }
