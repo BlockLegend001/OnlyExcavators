@@ -1,23 +1,23 @@
-[19:44:25] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.134, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.134, --fml.neoFormVersion, 20241203.161809]
-[19:44:25] [main/INFO]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[19:44:25] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[19:44:25] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[19:44:25] [main/INFO]: Trying GL version 4.6
-[19:44:25] [main/INFO]: Requested GL version 4.6 got version 4.6
-[19:44:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
-[19:44:26] [pool-2-thread-1/INFO]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.4314, Intel
-[19:44:26] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Excavators\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.134\neoforge-21.4.134.jar])]
-[19:44:26] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Excavators\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.134\neoforge-21.4.134.jar])]
-[19:44:26] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-18.0.804.jar" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/INFO]: Found mod file "cloth-config-neoforge-17.0.144-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/INFO]: Found mod file "architectury-neoforge-15.0.2.jar" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
-[19:44:26] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
-[19:44:26] [main/INFO]: Found 1 dependencies adding them to mods collection
-[19:44:26] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.4.134.jar" [parent: neoforge-21.4.134.jar, locator: jarinjar, reader: mod manifest]
-[19:44:26] [main/INFO]: 
+[20:43:22] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.134, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.134, --fml.neoFormVersion, 20241203.161809]
+[20:43:22] [main/INFO]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[20:43:22] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[20:43:23] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[20:43:23] [main/INFO]: Trying GL version 4.6
+[20:43:23] [main/INFO]: Requested GL version 4.6 got version 4.6
+[20:43:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[20:43:23] [pool-2-thread-1/INFO]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5592, Intel
+[20:43:23] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Excavators\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.134\neoforge-21.4.134.jar])]
+[20:43:23] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Excavators\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.134\neoforge-21.4.134.jar])]
+[20:43:23] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/INFO]: Found mod file "neoforge-21.4.134.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-18.0.804.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/INFO]: Found mod file "cloth-config-neoforge-17.0.144-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/INFO]: Found mod file "architectury-neoforge-15.0.2.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:23] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[20:43:23] [main/INFO]: Found 1 dependencies adding them to mods collection
+[20:43:23] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.4.134.jar" [parent: neoforge-21.4.134.jar, locator: jarinjar, reader: mod manifest]
+[20:43:23] [main/INFO]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -25,613 +25,85 @@
 		Cloth Config v17 API 17.0.144 (cloth_config)
 		Minecraft 1.21.4 (minecraft)
 		NeoForge 21.4.134 (neoforge)
-		OnlyExcavators 1.21.4-0.2 (onlyexcavators)
+		OnlyExcavators 1.21.4-0.5 (onlyexcavators)
 		Roughly Enough Items (REI) 18.0.804 (roughlyenoughitems)
-[19:44:26] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.134, --gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
-[23apr2025 19:44:28.936] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 228 milliseconds
-[23apr2025 19:44:29.353] [pool-10-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23apr2025 19:44:33.777] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23apr2025 19:44:33.779] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23apr2025 19:44:33.781] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23apr2025 19:44:33.782] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23apr2025 19:44:33.782] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23apr2025 19:44:33.896] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Excavators/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.134/neoforge-21.4.134.jar%23221!/assets/.mcassetsroot' uses unexpected schema
-[23apr2025 19:44:33.896] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Excavators/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.134/neoforge-21.4.134.jar%23221!/data/.mcassetsroot' uses unexpected schema
-[23apr2025 19:44:33.920] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23apr2025 19:44:33.931] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[23apr2025 19:44:34.009] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[23apr2025 19:44:34.205] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.134, for MC 1.21.4
-[23apr2025 19:44:34.446] [modloading-worker-0/INFO] [REI/]: [REI] Config loaded
-[23apr2025 19:44:34.512] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REICommonPlugin
-[23apr2025 19:44:34.513] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[23apr2025 19:44:34.528] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
-[23apr2025 19:44:34.538] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
-[23apr2025 19:44:34.539] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
-[23apr2025 19:44:34.706] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file D:\Programmazione\Mod\Only Excavators\NEOFORGE\1.21.4\runs\client\config\neoforge-client.toml is not correct. Correcting
-[23apr2025 19:44:35.242] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [onlyexcavators]
-[23apr2025 19:44:35.389] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/roughlyenoughitems, mod/cloth_config, mod/architectury, mod/onlyexcavators, mod/neoforge
-[23apr2025 19:44:35.500] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
-[23apr2025 19:44:35.500] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
-[23apr2025 19:44:36.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.bark', args=[]} for sound event: minecraft:entity.wolf.ambient
-[23apr2025 19:44:36.644] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.pant', args=[]} for sound event: minecraft:entity.wolf.pant
-[23apr2025 19:44:36.644] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.whine', args=[]} for sound event: minecraft:entity.wolf.whine
-[23apr2025 19:44:36.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf.howl
-[23apr2025 19:44:36.779] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
-[23apr2025 19:44:36.780] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[23apr2025 19:44:36.863] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[23apr2025 19:44:36.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[23apr2025 19:44:36.933] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[23apr2025 19:44:36.939] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[23apr2025 19:44:36.945] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[23apr2025 19:44:36.983] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[23apr2025 19:44:36.984] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[23apr2025 19:44:36.986] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[23apr2025 19:44:36.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[23apr2025 19:44:36.992] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[23apr2025 19:44:37.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[23apr2025 19:44:37.128] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[23apr2025 19:44:37.133] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[23apr2025 19:44:37.135] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[23apr2025 19:44:37.157] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[23apr2025 19:44:45.219] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1380 recipes
-[23apr2025 19:44:45.229] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1491 advancements
-[23apr2025 19:44:45.231] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[23apr2025 19:44:45.306] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.308] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.308] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 0/10
-[23apr2025 19:44:45.308] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.310] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.310] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 1/10
-[23apr2025 19:44:45.310] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.313] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.313] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 2/10
-[23apr2025 19:44:45.313] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.314] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.315] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 3/10
-[23apr2025 19:44:45.315] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.316] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.316] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 4/10
-[23apr2025 19:44:45.316] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.317] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.317] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 5/10
-[23apr2025 19:44:45.318] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.319] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.319] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 6/10
-[23apr2025 19:44:45.319] [Render thread/ERROR] [net.minecraft.Util/]: Failed to rename
-java.nio.file.FileSystemException: .\saves\New World\level1153346617026847425.dat -> .\saves\New World\level.dat: Impossibile accedere al file. Il file è utilizzato da un altro processo
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1431) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util$3.getAsBoolean(Util.java:700) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.executeInSequence(Util.java:765) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.runWithRetries(Util.java:776) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceOrMoveFile(Util.java:799) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.Util.safeReplaceFile(Util.java:788) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:523) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:512) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:504) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.doWorldLoad(Minecraft.java:2000) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldDoLoad(WorldOpenFlows.java:458) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckDiskSpace(WorldOpenFlows.java:453) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$openWorldLoadBundledResourcePack$16(WorldOpenFlows.java:416) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:754) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2223) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadBundledResourcePack(WorldOpenFlows.java:414) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckWorldStemCompatibility(WorldOpenFlows.java:389) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:378) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:338) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:300) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:266) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:496) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:479) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.AbstractContainerWidget.mouseClicked(AbstractContainerWidget.java:60) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:44) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$2(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.MouseHandler.lambda$setup$3(MouseHandler.java:222) ~[neoforge-21.4.134.jar%23221!/:?]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23214!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23203!/:build 5]
-	at TRANSFORMER/minecraft@1.21.4/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:165) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1277) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.134.jar%23221!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.134.jar%23221!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23177!/:6.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23156!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23156!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-[23apr2025 19:44:45.322] [Render thread/WARN] [net.minecraft.Util/]: Failed to execute rename .\saves\New World\level1153346617026847425.dat to .\saves\New World\level.dat
-[23apr2025 19:44:45.322] [Render thread/ERROR] [net.minecraft.Util/]: Failed to replace .\saves\New World\level.dat with .\saves\New World\level1153346617026847425.dat, retrying 7/10
-[23apr2025 19:44:45.376] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
-[23apr2025 19:44:45.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23apr2025 19:44:45.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23apr2025 19:44:46.283] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23apr2025 19:44:46.283] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23apr2025 19:44:46.780] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[23apr2025 19:44:47.288] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[23apr2025 19:44:47.592] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[23apr2025 19:44:47.593] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1881 ms
-[23apr2025 19:44:47.705] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[23apr2025 19:44:47.705] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[23apr2025 19:44:48.626] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6a94d587] logged in with entity id 85 at (-3.5, 89.0, 0.5)
-[23apr2025 19:44:48.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[23apr2025 19:44:48.781] [Render thread/WARN] [REI/]: [REI] Found 1 existing reload task(s) after trying to terminate them!
-[23apr2025 19:44:48.805] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[23apr2025 19:44:48.823] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
-[23apr2025 19:44:48.823] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for START.
-[23apr2025 19:44:48.823] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (2):
-[23apr2025 19:44:48.823] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[23apr2025 19:44:48.824] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[23apr2025 19:44:48.824] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
-[23apr2025 19:44:48.940] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[23apr2025 19:44:48.940] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for START.
-[23apr2025 19:44:48.941] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
-[23apr2025 19:44:48.941] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
-[23apr2025 19:44:48.941] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[23apr2025 19:44:48.941] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[23apr2025 19:44:48.941] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[23apr2025 19:44:49.292] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for START in 2.867 ms, totaling 149.4 ms.
-[23apr2025 19:44:49.295] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for START in 839.8 μs, totaling 351.4 ms.
-[23apr2025 19:44:49.300] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
-[23apr2025 19:44:49.300] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for END.
-[23apr2025 19:44:49.300] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (2):
-[23apr2025 19:44:49.300] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[23apr2025 19:44:49.300] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[23apr2025 19:44:49.301] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
-[23apr2025 19:44:49.386] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[23apr2025 19:44:49.386] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for END.
-[23apr2025 19:44:49.387] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
-[23apr2025 19:44:49.387] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
-[23apr2025 19:44:49.387] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[23apr2025 19:44:49.387] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[23apr2025 19:44:49.387] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[23apr2025 19:44:50.262] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for END in 632.5 μs, totaling 87.35 ms.
-[23apr2025 19:44:50.266] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for END in 2.263 ms, totaling 877.9 ms.
-[23apr2025 19:44:51.892] [Render thread/INFO] [REI/]: [REI] [REI Server Display Sync] Received server's request to set 1560 recipes.
-[23apr2025 19:44:51.994] [Render thread/WARN] [REI/]: [REI] Detected runtime DisplayRegistry modification, this can be extremely dangerous!
+[20:43:24] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.134, --gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[20:43:24] [main/WARN]: Reference map 'onlyexcavators.refmap.json' for onlyexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[12giu2025 20:43:27.297] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 358 milliseconds
+[12giu2025 20:43:27.610] [pool-10-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12giu2025 20:43:32.619] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12giu2025 20:43:32.628] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12giu2025 20:43:32.631] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12giu2025 20:43:32.632] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12giu2025 20:43:32.632] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12giu2025 20:43:32.757] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Excavators/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.134/neoforge-21.4.134.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[12giu2025 20:43:32.757] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Excavators/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.134/neoforge-21.4.134.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[12giu2025 20:43:32.800] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12giu2025 20:43:32.809] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[12giu2025 20:43:32.923] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[12giu2025 20:43:33.221] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.134, for MC 1.21.4
+[12giu2025 20:43:33.474] [modloading-worker-0/INFO] [REI/]: [REI] Config loaded
+[12giu2025 20:43:33.525] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REICommonPlugin
+[12giu2025 20:43:33.526] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[12giu2025 20:43:33.543] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[12giu2025 20:43:33.553] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[12giu2025 20:43:33.554] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[12giu2025 20:43:34.223] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [onlyexcavators]
+[12giu2025 20:43:34.328] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/roughlyenoughitems, mod/cloth_config, mod/architectury, mod/onlyexcavators, mod/neoforge
+[12giu2025 20:43:34.462] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[12giu2025 20:43:34.462] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[12giu2025 20:43:35.939] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.ambient.cave', args=[]} for sound event: minecraft:ambient.cave
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:ui.hud.bubble_pop
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.ambient
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.activate
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.deactivate
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.attack
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.death
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.step
+[12giu2025 20:43:35.940] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.freeze
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.unfreeze
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.spawn
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.sway
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.twitch
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.break
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.fall
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hit
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hurt
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.place
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.step
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.idle
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.spawn
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open_long
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close_long
+[12giu2025 20:43:35.941] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.idle
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.pale_hanging_moss.idle
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.parrot.imitate.creaking
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.spawner.fall
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.break
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.fall
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.place
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.step
+[12giu2025 20:43:35.942] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.break
+[12giu2025 20:43:35.943] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.fall
+[12giu2025 20:43:35.943] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.hit
+[12giu2025 20:43:35.943] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.place
+[12giu2025 20:43:35.943] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.step
+[12giu2025 20:43:36.163] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
+[12giu2025 20:43:36.164] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[12giu2025 20:43:36.231] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[12giu2025 20:43:36.295] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[12giu2025 20:43:36.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12giu2025 20:43:36.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12giu2025 20:43:36.307] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12giu2025 20:43:36.342] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12giu2025 20:43:36.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12giu2025 20:43:36.345] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12giu2025 20:43:36.347] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12giu2025 20:43:36.350] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[12giu2025 20:43:36.477] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12giu2025 20:43:36.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12giu2025 20:43:36.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12giu2025 20:43:36.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[12giu2025 20:43:36.513] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
