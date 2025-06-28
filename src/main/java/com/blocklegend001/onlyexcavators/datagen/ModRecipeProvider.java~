@@ -1,0 +1,11 @@
+package com.blocklegend001.onlyexcavators.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+
+public class ModRecipeProvider extends FabricRecipeProvider {
+
+    public ModRecipeProvider(FabricDataGenerator dataGenerator) {
+        super(dataGenerator);
+    }
+}
