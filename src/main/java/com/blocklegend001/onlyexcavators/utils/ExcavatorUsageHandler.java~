@@ -1,0 +1,28 @@
+package com.blocklegend001.onlyexcavators.utils;
+
+import com.blocklegend001.onlyexcavators.item.custom.Excavator;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+import java.util.Set;
+
+public class ExcavatorUsageHandler {
+    public static void handleExcavation(PlayerEntity player, BlockPos pos, boolean isSneaking) {
+        ItemStack mainHandItem = player.getMainHandStack();
+        World world = player.getWorld();
+
+        if (!(mainHandItem.getItem() instanceof Excavator excavator) || !(player instanceof ServerPlayerEntity serverPlayer)) return;
+
+        Set<BlockPos> positions = Excavator.getBlocksToBeDestroyed(isSneaking ? 0 : 1, pos, serverPlayer);
+
+        for (BlockPos target : positions) {
+            if (target.equals(pos)) continue;
+            if (!excavator.isCorrectForDrops(mainHandItem, world.getBlockState(target))) continue;
+
+            serverPlayer.interactionManager.tryBreakBlock(target);
+        }
+    }
+}
