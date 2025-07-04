@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:obsidian",
+    "S": "minecraft:stick",
+    "b": "minecraft:obsidian"
+  },
+  "pattern": [
+    " B ",
+    "bSb",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "onlyexcavators:obsidian_excavator"
+  }
+}

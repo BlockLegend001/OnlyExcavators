@@ -1,0 +1,11 @@
+package com.blocklegend001.onlyexcavators.item.custom;
+
+import com.blocklegend001.onlyexcavators.item.ModToolMaterials;
+
+public class LapisExcavator extends Excavator{
+    public LapisExcavator(ModToolMaterials material, float attackDamage, float attackSpeed, Properties settings) {
+        super(material, attackDamage, attackSpeed, settings);
+    }
+
+
+}
