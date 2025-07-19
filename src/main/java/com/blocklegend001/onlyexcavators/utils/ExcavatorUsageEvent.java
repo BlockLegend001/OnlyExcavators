@@ -19,7 +19,6 @@ import static com.blocklegend001.onlyexcavators.utils.RadiusMap.EXCAVATOR_RADIUS
 
 public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
-    public static boolean isSneaking = false;
 
     @Override
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
@@ -30,6 +29,8 @@ public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
         if (!(mainHandItem.getItem() instanceof Excavator excavator)) return true;
 
         if (HARVESTED_BLOCKS.contains(pos)) return true;
+
+        boolean isSneaking = player.isSneaking();
 
         HARVESTED_BLOCKS.add(pos);
 
