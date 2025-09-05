@@ -8,6 +8,7 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -66,6 +67,39 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModItems.NETHERITE_EXCAVATOR.get());
 
         tag(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(Tags.Items.TOOLS).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
