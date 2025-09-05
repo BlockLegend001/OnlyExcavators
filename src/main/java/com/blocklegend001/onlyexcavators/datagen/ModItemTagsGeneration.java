@@ -4,6 +4,7 @@ import com.blocklegend001.onlyexcavators.item.ModItems;
 import com.blocklegend001.onlyexcavators.utils.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -51,6 +52,50 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NETHERITE_EXCAVATOR);
 
         getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR)
+                .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.IRON_EXCAVATOR)
+                .add(ModItems.GOLD_EXCAVATOR)
+                .add(ModItems.LAPIS_EXCAVATOR)
+                .add(ModItems.REDSTONE_EXCAVATOR)
+                .add(ModItems.OBSIDIAN_EXCAVATOR)
+                .add(ModItems.DIAMOND_EXCAVATOR)
+                .add(ModItems.EMERALD_EXCAVATOR)
+                .add(ModItems.NETHERITE_EXCAVATOR);
+
+        getOrCreateTagBuilder(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR)
+                .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.IRON_EXCAVATOR)
+                .add(ModItems.GOLD_EXCAVATOR)
+                .add(ModItems.LAPIS_EXCAVATOR)
+                .add(ModItems.REDSTONE_EXCAVATOR)
+                .add(ModItems.OBSIDIAN_EXCAVATOR)
+                .add(ModItems.DIAMOND_EXCAVATOR)
+                .add(ModItems.EMERALD_EXCAVATOR)
+                .add(ModItems.NETHERITE_EXCAVATOR);
+
+        getOrCreateTagBuilder(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_EXCAVATOR)
+                .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.IRON_EXCAVATOR)
+                .add(ModItems.GOLD_EXCAVATOR)
+                .add(ModItems.LAPIS_EXCAVATOR)
+                .add(ModItems.REDSTONE_EXCAVATOR)
+                .add(ModItems.OBSIDIAN_EXCAVATOR)
+                .add(ModItems.DIAMOND_EXCAVATOR)
+                .add(ModItems.EMERALD_EXCAVATOR)
+                .add(ModItems.NETHERITE_EXCAVATOR);
+
+        getOrCreateTagBuilder(ConventionalItemTags.TOOLS).add(ModItems.WOODEN_EXCAVATOR)
+                .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.IRON_EXCAVATOR)
+                .add(ModItems.GOLD_EXCAVATOR)
+                .add(ModItems.LAPIS_EXCAVATOR)
+                .add(ModItems.REDSTONE_EXCAVATOR)
+                .add(ModItems.OBSIDIAN_EXCAVATOR)
+                .add(ModItems.DIAMOND_EXCAVATOR)
+                .add(ModItems.EMERALD_EXCAVATOR)
+                .add(ModItems.NETHERITE_EXCAVATOR);
+
+        getOrCreateTagBuilder(ConventionalItemTags.MINING_TOOL_TOOLS).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
