@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.VanillaItemTagsProvider;
 import net.minecraft.tags.ItemTags;
+import net.minecraftforge.common.Tags;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -72,6 +73,38 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
                 .add(ModItems.EMERALD_EXCAVATOR.get())
                 .add(ModItems.OBSIDIAN_EXCAVATOR.get())
                 .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(Tags.Items.TOOLS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
     }
 }
-
