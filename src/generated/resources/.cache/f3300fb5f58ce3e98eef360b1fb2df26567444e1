@@ -1,8 +1,11 @@
-// 1.21	2024-07-29T18:56:36.3446547	Tags for minecraft:item mod id onlyexcavators
+// 1.21	2025-09-05T22:06:57.6450878	Tags for minecraft:item mod id onlyexcavators
+146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/forge/tags/item/tools.json
+146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/breaks_decorated_pots.json
 146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/enchantable/durability.json
 146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/enchantable/mining.json
 146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/enchantable/mining_loot.json
 146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/enchantable/vanishing.json
+146cc1c3a13c5ab836af9cd5651ef2a4e56890c4 data/minecraft/tags/item/shovels.json
 aa3edf22fb0c68961085723eaa205265e2b17917 data/onlyexcavators/tags/item/diamond_excavators.json
 d8b93ec61d6c77096d437ecc64a68309e7396ab5 data/onlyexcavators/tags/item/emerald_excavators.json
 7fa2b3522878ea277065975ef7c2d37cf261441d data/onlyexcavators/tags/item/gold_excavators.json
