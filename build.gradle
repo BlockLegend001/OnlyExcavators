@@ -128,7 +128,7 @@ idea {
 }
 
 publishMods {
-    displayName = "$mod_name-$mod_version-Forge"
+    displayName = "$mod_name-$mod_version-NeoForge"
     version = mod_version
     type = STABLE
 
