@@ -1,4 +1,4 @@
-// 1.21.3	2024-12-13T17:41:59.0210094	OnlyExcavators/
+// 1.21.3	2025-09-05T16:44:36.1869461	OnlyExcavators/
 4319118ccd7d5ec14d51bae079a4eb6cef6b9789 data\onlyexcavators\advancement\recipes\tools\wooden_excavator.json
 655d8db843938967d622ae24eaa646cba1485d88 data\onlyexcavators\recipe\lapis_excavator.json
 1caeb4e9dc890c372f3cb3eeaa3be7f6c5bed594 data\onlyexcavators\advancement\recipes\tools\netherite_excavator.json
@@ -6,8 +6,8 @@
 4ec0316505ef3cb2464fe5cc76bda03604b59abf data\onlyexcavators\recipe\stone_excavator.json
 29da01c98b382a90ec7243536316c8f845e9b7b4 data\onlyexcavators\recipe\diamond_excavator.json
 7bdd2815822d2fbff7139ee7b8fc021615393f6c data\onlyexcavators\recipe\redstone_excavator.json
-745566d5b6db7f966e02bae375426329fb8e52de data\onlyexcavators\recipe\emerald_excavator.json
 8e280c3a009b149e756957f46824d05b1429a094 data\onlyexcavators\advancement\recipes\tools\diamond_excavator.json
+745566d5b6db7f966e02bae375426329fb8e52de data\onlyexcavators\recipe\emerald_excavator.json
 e2a09beb3dfb6d83e01eaa6b076afdb85fda1b11 data\onlyexcavators\recipe\wooden_excavator.json
 7fd3103635c6ccae2307e7629b38574a3a51ed84 data\onlyexcavators\recipe\obsidian_excavator.json
 80103c30ed39f00cd4a60a0c9dc6d25589a74fe2 data\onlyexcavators\recipe\netherite_excavator.json
