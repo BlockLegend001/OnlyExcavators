@@ -44,7 +44,6 @@ public class LevelRendererMixin {
 
         AABB box = getSelectionBox(range, hit.getDirection(), origin);
 
-        // offset for camera
         Vec3 cam = camera.getPosition();
         AABB shifted = box.move(-cam.x, -cam.y, -cam.z);
 
@@ -53,7 +52,6 @@ public class LevelRendererMixin {
         PoseStack.Pose pose = poseStack.last();
         Matrix4f matrix = pose.pose();
 
-        // perfect alignment (VERY IMPORTANT)
         RenderSystem.depthMask(false);
         RenderSystem.disableDepthTest();
         RenderSystem.enableBlend();
