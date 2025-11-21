@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BSB",
+    " S "
+  ],
+  "result": {
+    "item": "onlyexcavators:stone_excavator"
+  },
+  "show_notification": true
+}

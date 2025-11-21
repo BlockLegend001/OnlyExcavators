@@ -1,20 +1,26 @@
 package com.blocklegend001.onlyexcavators.item.custom;
 
+import com.blocklegend001.onlyexcavators.utils.RadiusMap;
+import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.DiggerItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Vanishable;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.ClipContext;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Excavator extends DiggerItem implements Vanishable {
+public class Excavator extends DiggerItem {
     public Excavator(Tier pTier, float pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pAttackDamageModifier, pAttackSpeedModifier, pTier, BlockTags.MINEABLE_WITH_SHOVEL, pProperties);
     }
@@ -54,5 +60,25 @@ public class Excavator extends DiggerItem implements Vanishable {
         }
         return positions;
     }
-}
 
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag type) {
+        int radius = getRadiusForExcavator(stack);
+        int widht = radius * 2 + 1;
+
+        Component text = Component.literal("Dig area: ")
+                        .withStyle(ChatFormatting.GRAY)
+                                .append(Component.literal(widht + "x1").withStyle(ChatFormatting.YELLOW));
+
+        tooltip.add(text);
+
+        super.appendHoverText(stack, level, tooltip, type);
+    }
+
+    private int getRadiusForExcavator(ItemStack stack) {
+        if (RadiusMap.getExcavatorRadius().containsKey(stack.getItem())) {
+            return RadiusMap.getExcavatorRadius().get(stack.getItem());
+        }
+        return 0;
+    }
+}
