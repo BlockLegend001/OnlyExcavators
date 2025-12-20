@@ -29,7 +29,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(LevelRenderer.class)
 public class LevelRendererMixin {
     @Inject(method = "renderLevel", at = @At("TAIL"))
-    private void renderLevelAfter(GraphicsResourceAllocator p_367325_, DeltaTracker p_342180_, boolean p_109603_, Camera p_109604_, Matrix4f p_254120_, Matrix4f p_330527_, GpuBufferSlice p_407881_, Vector4f p_410175_, boolean p_407316_, CallbackInfo ci) {
+    private void renderLevelAfter(GraphicsResourceAllocator p_367325_, DeltaTracker p_342180_, boolean p_109603_, Camera p_109604_, Matrix4f p_254120_, Matrix4f p_330527_, Matrix4f p_429784_, GpuBufferSlice p_407881_, Vector4f p_410175_, boolean p_407316_, CallbackInfo ci) {
 
         if (Minecraft.getInstance().level == null || Minecraft.getInstance().player == null) {
             return;
