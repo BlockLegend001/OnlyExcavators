@@ -20,6 +20,10 @@ public class ModItems {
             new Excavator(ModToolMaterials.STONE_EXCAVATOR, 1.5F, -3.0F,
                     new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyExcavators.MOD_ID, "stone_excavator")))));
 
+    public static final Item COPPER_EXCAVATOR = registerItem("copper_excavator",
+            new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F,
+                    new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyExcavators.MOD_ID, "copper_excavator")))));
+
     public static final Item IRON_EXCAVATOR = registerItem("iron_excavator",
             new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F,
                     new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyExcavators.MOD_ID, "iron_excavator")))));

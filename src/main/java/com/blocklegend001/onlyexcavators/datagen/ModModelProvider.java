@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.WOODEN_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STONE_EXCAVATOR, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLD_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LAPIS_EXCAVATOR, Models.HANDHELD);

@@ -2,6 +2,7 @@
   "values": [
     "onlyexcavators:wooden_excavator",
     "onlyexcavators:stone_excavator",
+    "onlyexcavators:copper_excavator",
     "onlyexcavators:iron_excavator",
     "onlyexcavators:gold_excavator",
     "onlyexcavators:lapis_excavator",

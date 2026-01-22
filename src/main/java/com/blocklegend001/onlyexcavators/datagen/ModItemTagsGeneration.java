@@ -20,6 +20,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -31,6 +32,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -42,6 +44,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.VANISHING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -53,6 +56,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -64,6 +68,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -75,6 +80,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -86,6 +92,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ConventionalItemTags.TOOLS).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -97,6 +104,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ConventionalItemTags.MINING_TOOL_TOOLS).add(ModItems.WOODEN_EXCAVATOR)
                 .add(ModItems.STONE_EXCAVATOR)
+                .add(ModItems.COPPER_EXCAVATOR)
                 .add(ModItems.IRON_EXCAVATOR)
                 .add(ModItems.GOLD_EXCAVATOR)
                 .add(ModItems.LAPIS_EXCAVATOR)
@@ -113,6 +121,7 @@ public class ModItemTagsGeneration extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ModTags.Items.WOODEN_EXCAVATOR).add(ModItems.WOODEN_EXCAVATOR);
         valueLookupBuilder(ModTags.Items.STONE_EXCAVATOR).add(ModItems.STONE_EXCAVATOR);
+        valueLookupBuilder(ModTags.Items.COPPER_EXCAVATOR).add(ModItems.COPPER_EXCAVATOR);
         valueLookupBuilder(ModTags.Items.IRON_EXCAVATOR).add(ModItems.IRON_EXCAVATOR);
         valueLookupBuilder(ModTags.Items.GOLD_EXCAVATOR).add(ModItems.GOLD_EXCAVATOR);
         valueLookupBuilder(ModTags.Items.LAPIS_EXCAVATOR).add(ModItems.LAPIS_EXCAVATOR);
