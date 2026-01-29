@@ -11,6 +11,7 @@ public class ModTags {
 
         public static final TagKey<Item> WOODEN_EXCAVATOR = createTag("wooden_excavator");
         public static final TagKey<Item> STONE_EXCAVATOR = createTag("stone_excavator");
+        public static final TagKey<Item> COPPER_EXCAVATOR = createTag("copper_excavator");
         public static final TagKey<Item> IRON_EXCAVATOR = createTag("iron_excavator");
         public static final TagKey<Item> GOLD_EXCAVATOR = createTag("gold_excavator");
         public static final TagKey<Item> LAPIS_EXCAVATOR = createTag("lapis_excavator");
