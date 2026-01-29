@@ -15,6 +15,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.NETHERITE_EXCAVATOR)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.WOODEN_EXCAVATOR);
                         entries.add(ModItems.STONE_EXCAVATOR);
+                        entries.add(ModItems.COPPER_EXCAVATOR);
                         entries.add(ModItems.IRON_EXCAVATOR);
                         entries.add(ModItems.GOLD_EXCAVATOR);
                         entries.add(ModItems.LAPIS_EXCAVATOR);

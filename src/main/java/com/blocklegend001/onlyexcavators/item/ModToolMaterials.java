@@ -26,6 +26,15 @@ public class ModToolMaterials {
             ItemTags.STONE_TOOL_MATERIALS
     );
 
+    public static final ToolMaterial COPPER_EXCAVATOR = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_COPPER_TOOL,
+            ModConfigs.DurabilityCopperExcavator,
+            5,
+            1.0F,
+            13,
+            ItemTags.COPPER_TOOL_MATERIALS
+    );
+
     public static final ToolMaterial IRON_EXCAVATOR = new ToolMaterial(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
             ModConfigs.DurabilityIronExcavator,

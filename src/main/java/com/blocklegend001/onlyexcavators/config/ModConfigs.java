@@ -11,6 +11,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenExcavator;
     public static int DurabilityStoneExcavator;
+    public static int DurabilityCopperExcavator;
     public static int DurabilityIronExcavator;
     public static int DurabilityGoldExcavator;
     public static int DurabilityLapisExcavator;
@@ -22,6 +23,7 @@ public class ModConfigs {
 
     public static int RadiusWoodenExcavator;
     public static int RadiusStoneExcavator;
+    public static int RadiusCopperExcavator;
     public static int RadiusIronExcavator;
     public static int RadiusGoldExcavator;
     public static int RadiusLapisExcavator;
@@ -45,6 +47,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("DurabilityWoodenExcavator", 302), "Durability of the Wooden Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityStoneExcavator", 650), "Durability of the Stone Excavator");
+        configs.addKeyValuePair(new Pair<>("DurabilityCopperExcavator", 850), "Durability of the Copper Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityIronExcavator", 1300), "Durability of the Iron Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityGoldExcavator", 750), "Durability of the Gold Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityLapisExcavator", 1100), "Durability of the Lapis Excavator");
@@ -58,6 +61,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("RadiusWoodenExcavator", 1), "Excavation radius for Wooden Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusStoneExcavator", 1), "Excavation radius for Stone Excavator (radius 1 = 3×1 area)");
+        configs.addKeyValuePair(new Pair<>("RadiusCopperExcavator", 1), "Excavation radius for Copper Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusIronExcavator", 1), "Excavation radius for Iron Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusGoldExcavator", 1), "Excavation radius for Gold Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusLapisExcavator", 1), "Excavation radius for Lapis Excavator (radius 1 = 3×1 area)");
@@ -71,6 +75,7 @@ public class ModConfigs {
     private static void assignConfigs() {
         DurabilityWoodenExcavator = CONFIG.getOrDefault("DurabilityWoodenExcavator", 302);
         DurabilityStoneExcavator = CONFIG.getOrDefault("DurabilityStoneExcavator", 650);
+        DurabilityCopperExcavator = CONFIG.getOrDefault("DurabilityCopperExcavator", 850);
         DurabilityIronExcavator = CONFIG.getOrDefault("DurabilityIronExcavator", 1300);
         DurabilityGoldExcavator = CONFIG.getOrDefault("DurabilityGoldExcavator", 750);
         DurabilityLapisExcavator = CONFIG.getOrDefault("DurabilityLapisExcavator", 1100);
@@ -82,6 +87,7 @@ public class ModConfigs {
 
         RadiusWoodenExcavator = CONFIG.getOrDefault("RadiusWoodenExcavator", 1);
         RadiusStoneExcavator = CONFIG.getOrDefault("RadiusStoneExcavator", 1);
+        RadiusCopperExcavator = CONFIG.getOrDefault("RadiusCopperExcavator", 1);
         RadiusIronExcavator = CONFIG.getOrDefault("RadiusIronExcavator", 1);
         RadiusGoldExcavator = CONFIG.getOrDefault("RadiusGoldExcavator", 1);
         RadiusLapisExcavator = CONFIG.getOrDefault("RadiusLapisExcavator", 1);

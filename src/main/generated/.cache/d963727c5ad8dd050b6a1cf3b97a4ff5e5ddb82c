@@ -1,4 +1,5 @@
 // 1.21.11	-999999999-01-01T00:00:00	OnlyExcavators/Model Definitions
+28de9fe3cb8c1939f4ae87e0a2f870c8dbf710ca assets/onlyexcavators/items/copper_excavator.json
 cdfab9b9dd11cd60d5d1b3a48cf9862f42a5607c assets/onlyexcavators/items/diamond_excavator.json
 a8f66e7f1e02ab17a5598fd2052b4b33b2bf0154 assets/onlyexcavators/items/emerald_excavator.json
 87f3001bbffe8a3dadea0b691ab4786266e4f2e2 assets/onlyexcavators/items/gold_excavator.json
@@ -9,6 +10,7 @@ df5b32e85da189df2e9ecdc8a2ec23f6b431f0ee assets/onlyexcavators/items/iron_excava
 76284737dfc56c1e05a20de900ac65d475f5f3ec assets/onlyexcavators/items/redstone_excavator.json
 42869e1499b9bdfe70eebe45a3b9e68947a8d73c assets/onlyexcavators/items/stone_excavator.json
 5607b25e4f82350698bea03d5e074fd457e27b44 assets/onlyexcavators/items/wooden_excavator.json
+7e647b3e29605a420c4164f0ada03014f6c21b27 assets/onlyexcavators/models/item/copper_excavator.json
 851ae98965eb420ab577573b7a767fdf546085d8 assets/onlyexcavators/models/item/diamond_excavator.json
 03692530e2ecae2924cb3b9013175a7615712814 assets/onlyexcavators/models/item/emerald_excavator.json
 6ae5be3ff5222b14b64507bd8c99840ab791c20b assets/onlyexcavators/models/item/gold_excavator.json
