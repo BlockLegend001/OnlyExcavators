@@ -9,6 +9,7 @@ import net.minecraft.world.item.Item;
 public final class ModTags {
     public static final TagKey<Item> WOODEN_EXCAVATORS = bind("wooden_excavators");
     public static final TagKey<Item> STONE_EXCAVATORS = bind("stone_excavators");
+    public static final TagKey<Item> COPPER_EXCAVATORS = bind("copper_excavators");
     public static final TagKey<Item> IRON_EXCAVATORS = bind("iron_excavators");
     public static final TagKey<Item> GOLD_EXCAVATORS = bind("gold_excavators");
     public static final TagKey<Item> LAPIS_EXCAVATORS = bind("lapis_excavators");

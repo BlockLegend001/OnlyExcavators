@@ -27,6 +27,11 @@ public class ModItems {
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "stone_excavator")))
                     .repairable(ItemTags.STONE_TOOL_MATERIALS)));
 
+    public static final RegistryObject<Item> COPPER_EXCAVATOR = ITEMS.register("copper_excavator",
+            () -> new Excavator(ModToolMaterials.COPPER_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "copper_excavator")))
+                    .repairable(ItemTags.COPPER_TOOL_MATERIALS)));
+
     public static final RegistryObject<Item> IRON_EXCAVATOR = ITEMS.register("iron_excavator",
             () -> new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "iron_excavator")))

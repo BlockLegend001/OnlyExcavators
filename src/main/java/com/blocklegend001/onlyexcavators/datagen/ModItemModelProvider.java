@@ -42,6 +42,7 @@ public class ModItemModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         toolModel(itemModels, ModItems.WOODEN_EXCAVATOR.get());
         toolModel(itemModels, ModItems.STONE_EXCAVATOR.get());
+        toolModel(itemModels, ModItems.COPPER_EXCAVATOR.get());
         toolModel(itemModels, ModItems.IRON_EXCAVATOR.get());
         toolModel(itemModels, ModItems.GOLD_EXCAVATOR.get());
         toolModel(itemModels, ModItems.LAPIS_EXCAVATOR.get());
