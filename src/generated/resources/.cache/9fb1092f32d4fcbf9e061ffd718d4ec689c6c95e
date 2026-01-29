@@ -1,4 +1,5 @@
-// 1.21.11	2025-12-20T10:50:56.2881619	Recipes
+// 1.21.11	2026-01-29T19:18:36.7419645	Recipes
+200510320c0fcd248e14aeb600c744b6527fb162 data/onlyexcavators/advancement/recipes/tools/copper_excavator.json
 8e280c3a009b149e756957f46824d05b1429a094 data/onlyexcavators/advancement/recipes/tools/diamond_excavator.json
 3d09ebb6c6edcea17db49bf5da5d3ddc096d6dd2 data/onlyexcavators/advancement/recipes/tools/emerald_excavator.json
 16736595a6f904f64f02fb28bdcd36e90829fdba data/onlyexcavators/advancement/recipes/tools/gold_excavator.json
@@ -9,6 +10,7 @@ a4e36f0205ca843d1c25839cff7fd42375a5cdf9 data/onlyexcavators/advancement/recipes
 9ed775966d1e3f2ed2e1f25a8a60fa6780a027dd data/onlyexcavators/advancement/recipes/tools/redstone_excavator.json
 bfc8327293997e5e7ffbb4877ca1ce83c0c14fe8 data/onlyexcavators/advancement/recipes/tools/stone_excavator.json
 1dd9f8333b3725a8385f3d5902c8c8fa213130f7 data/onlyexcavators/advancement/recipes/tools/wooden_excavator.json
+859433fc6008ef2a130d4ff4059af63af7cc6772 data/onlyexcavators/recipe/copper_excavator.json
 29da01c98b382a90ec7243536316c8f845e9b7b4 data/onlyexcavators/recipe/diamond_excavator.json
 745566d5b6db7f966e02bae375426329fb8e52de data/onlyexcavators/recipe/emerald_excavator.json
 01c774a36ea9d7e5dd95d20143862346f7e3f740 data/onlyexcavators/recipe/gold_excavator.json

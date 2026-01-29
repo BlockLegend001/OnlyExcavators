@@ -21,6 +21,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
     protected void addTags(HolderLookup.@NotNull Provider provider) {
         tag(ModTags.WOODEN_EXCAVATORS).add(ModItems.WOODEN_EXCAVATOR.get());
         tag(ModTags.STONE_EXCAVATORS).add(ModItems.STONE_EXCAVATOR.get());
+        tag(ModTags.COPPER_EXCAVATORS).add(ModItems.COPPER_EXCAVATOR.get());
         tag(ModTags.IRON_EXCAVATORS).add(ModItems.IRON_EXCAVATOR.get());
         tag(ModTags.GOLD_EXCAVATORS).add(ModItems.GOLD_EXCAVATOR.get());
         tag(ModTags.LAPIS_EXCAVATORS).add(ModItems.LAPIS_EXCAVATOR.get());
@@ -32,6 +33,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -43,6 +45,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -54,6 +57,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.VANISHING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -65,6 +69,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -76,6 +81,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -87,6 +93,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
@@ -98,6 +105,7 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
 
         tag(Tags.Items.TOOLS).add(ModItems.WOODEN_EXCAVATOR.get())
                 .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.COPPER_EXCAVATOR.get())
                 .add(ModItems.IRON_EXCAVATOR.get())
                 .add(ModItems.GOLD_EXCAVATOR.get())
                 .add(ModItems.REDSTONE_EXCAVATOR.get())
