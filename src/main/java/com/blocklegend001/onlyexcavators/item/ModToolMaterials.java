@@ -35,6 +35,14 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
             5
     );
 
+    public static final ModToolMaterials COPPER_EXCAVATOR = new ModToolMaterials(
+            BlockTags.INCORRECT_FOR_COPPER_TOOL,
+            ModConfigs.durabilityCopperExcavator.get(),
+            5,
+            1.0F,
+            13
+    );
+
     public static final ModToolMaterials IRON_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
             ModConfigs.durabilityIronExcavator.get(),

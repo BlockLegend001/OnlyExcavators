@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.WOODEN_EXCAVATOR.get());
                         output.accept(ModItems.STONE_EXCAVATOR.get());
+                        output.accept(ModItems.COPPER_EXCAVATOR.get());
                         output.accept(ModItems.IRON_EXCAVATOR.get());
                         output.accept(ModItems.GOLD_EXCAVATOR.get());
                         output.accept(ModItems.REDSTONE_EXCAVATOR.get());

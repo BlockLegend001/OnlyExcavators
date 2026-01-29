@@ -1,6 +1,7 @@
 package com.blocklegend001.onlyexcavators;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
+import com.electronwill.nightconfig.core.io.WritingMode;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 import java.nio.file.Path;
@@ -11,6 +12,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue durabilityWoodenExcavator;
     public static final ForgeConfigSpec.IntValue durabilityStoneExcavator;
+    public static final ForgeConfigSpec.IntValue durabilityCopperExcavator;
     public static final ForgeConfigSpec.IntValue durabilityIronExcavator;
     public static final ForgeConfigSpec.IntValue durabilityGoldExcavator;
     public static final ForgeConfigSpec.IntValue durabilityLapisExcavator;
@@ -22,6 +24,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue radiusWoodenExcavator;
     public static final ForgeConfigSpec.IntValue radiusStoneExcavator;
+    public static final ForgeConfigSpec.IntValue radiusCopperExcavator;
     public static final ForgeConfigSpec.IntValue radiusIronExcavator;
     public static final ForgeConfigSpec.IntValue radiusGoldExcavator;
     public static final ForgeConfigSpec.IntValue radiusLapisExcavator;
@@ -39,6 +42,8 @@ public class ModConfigs {
                 .defineInRange("Wooden", 302, 0, Integer.MAX_VALUE);
         durabilityStoneExcavator = BUILDER.comment("Durability of the stone excavator.")
                 .defineInRange("Stone", 650, 0, Integer.MAX_VALUE);
+        durabilityCopperExcavator = BUILDER.comment("Durability of the copper excavator.")
+                .defineInRange("Copper", 850, 0, Integer.MAX_VALUE);
         durabilityIronExcavator = BUILDER.comment("Durability of the iron excavator.")
                 .defineInRange("Iron", 1300, 0, Integer.MAX_VALUE);
         durabilityGoldExcavator = BUILDER.comment("Durability of the gold excavator.")
@@ -60,23 +65,25 @@ public class ModConfigs {
         BUILDER.push("Radius Settings");
         radiusWoodenExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Wooden", 1, 0, Integer.MAX_VALUE);
-        radiusStoneExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusStoneExcavator = BUILDER.comment("Excavation radius for Stone Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Stone", 1, 0, Integer.MAX_VALUE);
-        radiusIronExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusCopperExcavator = BUILDER.comment("Excavation radius for Copper Excavator (radius 1 = 3×1 area)")
+                .defineInRange("Copper", 1, 0, Integer.MAX_VALUE);
+        radiusIronExcavator = BUILDER.comment("Excavation radius for Iron Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Iron", 1, 0, Integer.MAX_VALUE);
-        radiusGoldExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusGoldExcavator = BUILDER.comment("Excavation radius for Gold Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Gold", 1, 0, Integer.MAX_VALUE);
-        radiusLapisExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusLapisExcavator = BUILDER.comment("Excavation radius for Lapis Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Lapis", 1, 0, Integer.MAX_VALUE);
-        radiusRedstoneExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusRedstoneExcavator = BUILDER.comment("Excavation radius for Redstone Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Redstone", 1, 0, Integer.MAX_VALUE);
-        radiusObsidianExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusObsidianExcavator = BUILDER.comment("Excavation radius for Obsidian Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Obsidian", 1, 0, Integer.MAX_VALUE);
-        radiusDiamondExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusDiamondExcavator = BUILDER.comment("Excavation radius for Diamond Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Diamond", 1, 0, Integer.MAX_VALUE);
-        radiusEmeraldExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusEmeraldExcavator = BUILDER.comment("Excavation radius for Emerald Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Emerald", 1, 0, Integer.MAX_VALUE);
-        radiusNetheriteExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusNetheriteExcavator = BUILDER.comment("Excavation radius for Netherite Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Netherite", 1, 0, Integer.MAX_VALUE);
         BUILDER.pop();
 
@@ -87,7 +94,7 @@ public class ModConfigs {
         final CommentedFileConfig configData = CommentedFileConfig.builder(path)
                 .autosave()
                 .sync()
-                .writingMode(com.electronwill.nightconfig.core.io.WritingMode.REPLACE)
+                .writingMode(WritingMode.REPLACE)
                 .build();
 
         configData.load();
