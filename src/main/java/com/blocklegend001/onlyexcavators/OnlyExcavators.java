@@ -8,7 +8,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -29,6 +28,7 @@ public class OnlyExcavators {
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.WOODEN_EXCAVATOR.get());
                 output.accept(ModItems.STONE_EXCAVATOR.get());
+                output.accept(ModItems.COPPER_EXCAVATOR.get());
                 output.accept(ModItems.IRON_EXCAVATOR.get());
                 output.accept(ModItems.GOLD_EXCAVATOR.get());
                 output.accept(ModItems.LAPIS_EXCAVATOR.get());
@@ -40,7 +40,7 @@ public class OnlyExcavators {
             }).build()
     );
 
-    public OnlyExcavators(IEventBus eventBus, ModContainer container) {
+    public OnlyExcavators(IEventBus eventBus) {
         ModConfigs.loadConfig();
         NeoForge.EVENT_BUS.register(ModEvents.class);
         ModItems.register(eventBus);
