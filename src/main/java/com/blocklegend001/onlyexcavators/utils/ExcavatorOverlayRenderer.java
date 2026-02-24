@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyexcavators.utils;
 
+import com.blocklegend001.onlyexcavators.OnlyExcavatorsClient;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.MinecraftClient;
@@ -20,6 +21,8 @@ public class ExcavatorOverlayRenderer {
     public static void init() {
         WorldRenderEvents.AFTER_ENTITIES.register(context -> {
             MinecraftClient client = MinecraftClient.getInstance();
+            if (!OnlyExcavatorsClient.SHOW_OUTLINE_ENABLED) return;
+
             if (client.world == null || client.player == null) return;
 
             ItemStack heldItem = client.player.getMainHandStack();
