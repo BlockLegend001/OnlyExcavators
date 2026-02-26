@@ -10,5 +10,8 @@
   "item.onlyexcavators.obsidian_excavator": "Excavadora de obsidiana",
   "item.onlyexcavators.netherite_excavator": "Excavadora de netherite",
 
+  "key.category.onlyexcavators.showoutline": "Solo Excavadoras",
+  "key.onlyexcavators.showoutline": "Habilitar/Deshabilitar Esquema",
+
   "itemGroup.onlyexcavators.onlyexcavators": "Solo Excavadoras"
 }
