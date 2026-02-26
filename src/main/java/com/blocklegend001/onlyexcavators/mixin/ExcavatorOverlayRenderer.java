@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyexcavators.mixin;
 
+import com.blocklegend001.onlyexcavators.OnlyExcavatorsClient;
 import com.blocklegend001.onlyexcavators.utils.RadiusMap;
 import com.blocklegend001.onlyexcavators.utils.WorldRenderContext;
 import com.mojang.blaze3d.buffers.GpuBufferSlice;
@@ -40,6 +41,7 @@ public class ExcavatorOverlayRenderer {
     ) {
 
         MinecraftClient client = MinecraftClient.getInstance();
+        if (!OnlyExcavatorsClient.SHOW_OUTLINE_ENABLED) return;
 
         if (client.world == null || client.player == null) return;
 
