@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyexcavators.utils;
 
+import com.blocklegend001.onlyexcavators.OnlyExcavatorsClient;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
