@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyexcavators.mixin;
 
+import com.blocklegend001.onlyexcavators.OnlyExcavators;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyexcavators.utils.ExcavatorOverlayRenderer;
 import com.blocklegend001.onlyexcavators.utils.RadiusMap;
@@ -32,6 +33,8 @@ public class LevelRendererMixin {
             return;
         }
 
+        if (!OnlyExcavators.SHOW_OUTLINE_ENABLED) return;
+
         ItemStack heldItem = Minecraft.getInstance().player.getMainHandItem();
         if (!(heldItem.getItem() instanceof Excavator)) {
             return;
@@ -49,7 +52,6 @@ public class LevelRendererMixin {
         } else {
             range = RadiusMap.getExcavatorRadius().get(heldItem.getItem());
         }
-
 
         if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_SHOVEL)) {
             return;
