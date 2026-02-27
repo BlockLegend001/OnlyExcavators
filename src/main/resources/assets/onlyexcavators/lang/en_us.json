@@ -10,5 +10,8 @@
   "item.onlyexcavators.obsidian_excavator": "Obsidian Excavator",
   "item.onlyexcavators.netherite_excavator": "Netherite Excavator",
 
+  "key.category.onlyexcavators.showoutline": "OnlyExcavators",
+  "key.onlyexcavators.showoutline": "Enable/Disable Outline",
+
   "itemGroup.onlyexcavators": "Only Excavators"
 }
