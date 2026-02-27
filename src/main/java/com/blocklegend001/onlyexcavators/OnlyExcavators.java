@@ -5,15 +5,10 @@ import com.blocklegend001.onlyexcavators.item.ModItems;
 import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.client.Minecraft;
-import net.minecraft.network.chat.Component;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.Lazy;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -32,7 +27,7 @@ public class OnlyExcavators {
     public static final Lazy<KeyMapping> SHOW_OUTLINE_KEY = Lazy.of(() ->
             new KeyMapping(
                     "key.onlyexcavators.showoutline",
-                    com.mojang.blaze3d.platform.InputConstants.Type.KEYSYM,
+                    InputConstants.Type.KEYSYM,
                     GLFW.GLFW_KEY_O,
                     "key.category.onlyexcavators.showoutline"
             )
