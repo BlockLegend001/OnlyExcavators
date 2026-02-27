@@ -1,1 +1,1 @@
-- Fixed Java Version and other problems
+- Added KeyBind to Enable/Disable the Outline

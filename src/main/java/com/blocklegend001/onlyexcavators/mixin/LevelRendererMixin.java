@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyexcavators.mixin;
 
+import com.blocklegend001.onlyexcavators.OnlyExcavators;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyexcavators.utils.RadiusMap;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -29,6 +30,8 @@ public class LevelRendererMixin {
                                   Matrix4f projection, CallbackInfo ci) {
 
         Minecraft mc = Minecraft.getInstance();
+
+        if (!OnlyExcavators.SHOW_OUTLINE_ENABLED) return;
 
         if (mc.level == null || mc.player == null) return;
 
