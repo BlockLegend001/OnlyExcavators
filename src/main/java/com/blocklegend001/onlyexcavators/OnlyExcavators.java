@@ -2,7 +2,9 @@ package com.blocklegend001.onlyexcavators;
 
 import com.blocklegend001.onlyexcavators.event.ModEvents;
 import com.blocklegend001.onlyexcavators.item.ModItems;
+import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.KeyMapping;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -11,8 +13,10 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.common.util.Lazy;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 
 @Mod(OnlyExcavators.MOD_ID)
@@ -20,6 +24,17 @@ public class OnlyExcavators {
 
     public static final String MOD_ID = "onlyexcavators";
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    public static boolean SHOW_OUTLINE_ENABLED = true;
+
+    public static final Lazy<KeyMapping> SHOW_OUTLINE_KEY = Lazy.of(() ->
+            new KeyMapping(
+                    "key.onlyexcavators.showoutline",
+                    InputConstants.Type.KEYSYM,
+                    GLFW.GLFW_KEY_O,
+                    "key.category.onlyexcavators.showoutline"
+            )
+    );
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
