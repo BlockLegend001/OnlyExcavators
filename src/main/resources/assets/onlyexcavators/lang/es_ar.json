@@ -2,7 +2,6 @@
   "item.onlyexcavators.wooden_excavator": "Excavadora de madera",
   "item.onlyexcavators.stone_excavator": "Excavadora de piedra",
   "item.onlyexcavators.iron_excavator": "Excavadora de hierro",
-  "item.onlyexcavators.copper_excavator": "Excavadora de cobre",
   "item.onlyexcavators.gold_excavator": "Excavadora de oro",
   "item.onlyexcavators.lapis_excavator": "Excavadora de lapislázuli",
   "item.onlyexcavators.redstone_excavator": "Excavadora de redstone",
@@ -10,6 +9,9 @@
   "item.onlyexcavators.emerald_excavator": "Excavadora de esmeralda",
   "item.onlyexcavators.obsidian_excavator": "Excavadora de obsidiana",
   "item.onlyexcavators.netherite_excavator": "Excavadora de netherite",
+
+  "key.category.onlyexcavators.showoutline": "Solo Excavadoras",
+  "key.onlyexcavators.showoutline": "Habilitar/Deshabilitar Esquema",
 
   "itemGroup.onlyexcavators": "Solo Excavadoras"
 }
