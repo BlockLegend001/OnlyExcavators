@@ -16,6 +16,7 @@ public class ModConfigs {
     // Configurazioni per gli Excavators
     public static int DurabilityWoodenExcavator = 302;
     public static int DurabilityStoneExcavator = 650;
+    public static int DurabilityCopperExcavator = 850;
     public static int DurabilityIronExcavator = 1300;
     public static int DurabilityGoldExcavator = 750;
     public static int DurabilityLapisExcavator = 1100;
@@ -27,6 +28,7 @@ public class ModConfigs {
 
     public static int radiusWoodenExcavator = 1;
     public static int radiusStoneExcavator = 1;
+    public static int radiusCopperExcavator = 1;
     public static int radiusIronExcavator = 1;
     public static int radiusGoldExcavator = 1;
     public static int radiusLapisExcavator = 1;
@@ -45,6 +47,7 @@ public class ModConfigs {
 
                 DurabilityWoodenExcavator = config.get("DurabilityWoodenExcavator").getAsInt();
                 DurabilityStoneExcavator = config.get("DurabilityStoneExcavator").getAsInt();
+                DurabilityCopperExcavator = config.get("DurabilityCopperExcavator").getAsInt();
                 DurabilityIronExcavator = config.get("DurabilityIronExcavator").getAsInt();
                 DurabilityGoldExcavator = config.get("DurabilityGoldExcavator").getAsInt();
                 DurabilityLapisExcavator = config.get("DurabilityLapisExcavator").getAsInt();
@@ -56,6 +59,7 @@ public class ModConfigs {
 
                 radiusWoodenExcavator = config.get("radiusWoodenExcavator").getAsInt();
                 radiusStoneExcavator = config.get("radiusStoneExcavator").getAsInt();
+                radiusCopperExcavator = config.get("radiusCopperExcavator").getAsInt();
                 radiusIronExcavator = config.get("radiusIronExcavator").getAsInt();
                 radiusGoldExcavator = config.get("radiusGoldExcavator").getAsInt();
                 radiusLapisExcavator = config.get("radiusLapisExcavator").getAsInt();
@@ -75,6 +79,7 @@ public class ModConfigs {
 
         config.addProperty("DurabilityWoodenExcavator", DurabilityWoodenExcavator);
         config.addProperty("DurabilityStoneExcavator", DurabilityStoneExcavator);
+        config.addProperty("DurabilityCopperExcavator", DurabilityCopperExcavator);
         config.addProperty("DurabilityIronExcavator", DurabilityIronExcavator);
         config.addProperty("DurabilityGoldExcavator", DurabilityGoldExcavator);
         config.addProperty("DurabilityLapisExcavator", DurabilityLapisExcavator);
@@ -86,6 +91,7 @@ public class ModConfigs {
 
         config.addProperty("radiusWoodenExcavator", radiusWoodenExcavator);
         config.addProperty("radiusStoneExcavator", radiusStoneExcavator);
+        config.addProperty("radiusCopperExcavator", radiusCopperExcavator);
         config.addProperty("radiusIronExcavator", radiusIronExcavator);
         config.addProperty("radiusGoldExcavator", radiusGoldExcavator);
         config.addProperty("radiusLapisExcavator", radiusLapisExcavator);

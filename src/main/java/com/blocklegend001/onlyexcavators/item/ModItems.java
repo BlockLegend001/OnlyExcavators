@@ -24,6 +24,10 @@ public class ModItems {
             () -> new Excavator(ModToolMaterials.STONE_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "stone_excavator")))));
 
+    public static final DeferredItem<Item> COPPER_EXCAVATOR = ITEMS.register("copper_excavator",
+            () -> new Excavator(ModToolMaterials.COPPER_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "copper_excavator")))));
+
     public static final DeferredItem<Item> IRON_EXCAVATOR = ITEMS.register("iron_excavator",
             () -> new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(OnlyExcavators.MOD_ID, "iron_excavator")))));
