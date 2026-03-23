@@ -1,6 +1,7 @@
 package com.blocklegend001.onlyexcavators.event;
 
 import com.blocklegend001.onlyexcavators.OnlyExcavators;
+import com.blocklegend001.onlyexcavators.utils.KeyBinding;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,7 +14,7 @@ public class KeyBindingEvents {
 
     @SubscribeEvent
     public static void onClientTick(TickEvent.ClientTickEvent.Post event) {
-        while (OnlyExcavators.SHOW_OUTLINE_KEY.get().consumeClick()) {
+        while (KeyBinding.SHOW_OUTLINE_KEY.consumeClick()) {
             OnlyExcavators.SHOW_OUTLINE_ENABLED =
                     !OnlyExcavators.SHOW_OUTLINE_ENABLED;
 
