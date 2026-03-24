@@ -27,15 +27,6 @@ public class OnlyExcavators {
 
     public static boolean SHOW_OUTLINE_ENABLED = true;
 
-    public static final Lazy<KeyMapping> SHOW_OUTLINE_KEY = Lazy.of(() ->
-            new KeyMapping(
-                    "key.onlyexcavators.showoutline",
-                    InputConstants.Type.KEYSYM,
-                    GLFW.GLFW_KEY_O,
-                    "key.category.onlyexcavators.showoutline"
-            )
-    );
-
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ONLYEXCAVATORS = CREATIVE_MODE_TABS.register("onlyexcavators", () -> CreativeModeTab.builder()
