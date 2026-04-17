@@ -11,13 +11,13 @@ import org.lwjgl.glfw.GLFW;
 
 public class OnlyExcavatorsClient implements ClientModInitializer {
 
-    public static KeyBinding SHOW_OUTLINE_KEY;
+    public static KeyBinding EXCAVATOR_SHOW_OUTLINE_KEY;
     private static boolean wasPressed = false;
     public static boolean SHOW_OUTLINE_ENABLED = true;
 
     @Override
     public void onInitializeClient() {
-        SHOW_OUTLINE_KEY = KeyBindingHelper.registerKeyBinding(
+        EXCAVATOR_SHOW_OUTLINE_KEY = KeyBindingHelper.registerKeyBinding(
                 new KeyBinding(
                         "key.onlyexcavators.showoutline",
                         InputUtil.Type.KEYSYM,
@@ -27,7 +27,7 @@ public class OnlyExcavatorsClient implements ClientModInitializer {
         );
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if (SHOW_OUTLINE_KEY.isPressed()) {
+            if (EXCAVATOR_SHOW_OUTLINE_KEY.isPressed()) {
                 if (!wasPressed) {
                     SHOW_OUTLINE_ENABLED = !SHOW_OUTLINE_ENABLED;
 
