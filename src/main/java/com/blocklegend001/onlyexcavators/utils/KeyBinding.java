@@ -12,7 +12,7 @@ import org.lwjgl.glfw.GLFW;
 
 @EventBusSubscriber(modid = OnlyExcavators.MOD_ID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class KeyBinding {
-    public static final Lazy<KeyMapping> SHOW_OUTLINE_KEY = Lazy.of(() ->
+    public static final Lazy<KeyMapping> EXCAVATOR_SHOW_OUTLINE_KEY = Lazy.of(() ->
             new KeyMapping(
                     "key.onlyexcavators.showoutline",
                     InputConstants.Type.KEYSYM,
@@ -23,6 +23,6 @@ public class KeyBinding {
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent event) {
-        event.register(SHOW_OUTLINE_KEY.get());
+        event.register(EXCAVATOR_SHOW_OUTLINE_KEY.get());
     }
 }
