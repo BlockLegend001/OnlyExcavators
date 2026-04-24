@@ -2,7 +2,9 @@ package com.blocklegend001.onlyexcavators;
 
 import com.blocklegend001.onlyexcavators.item.ModCreativeModeTabs;
 import com.blocklegend001.onlyexcavators.item.ModItems;
+import com.blocklegend001.onlyexcavators.utils.KeyBinding;
 import com.mojang.logging.LogUtils;
+import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -25,6 +27,9 @@ public class OnlyExcavators {
         ModCreativeModeTabs.register(modGroupBus);
         ModItems.register(modGroupBus);
         FMLCommonSetupEvent.getBus(modGroupBus).addListener(this::setup);
+
+        RegisterKeyMappingsEvent.getBus(modGroupBus)
+                .addListener(KeyBinding::registerKeys);
     }
 
     @SubscribeEvent
