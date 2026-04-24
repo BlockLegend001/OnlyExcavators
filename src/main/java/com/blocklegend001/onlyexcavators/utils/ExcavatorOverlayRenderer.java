@@ -2,58 +2,40 @@ package com.blocklegend001.onlyexcavators.utils;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
+import org.jetbrains.annotations.NotNull;
 import org.joml.Matrix4f;
 
 public class ExcavatorOverlayRenderer {
-    public static void drawBox(
-            Matrix4f matrices,
-            VertexConsumer buffer,
-            AABB box,
-            float r, float g, float b, float a
-    ) {
-        Matrix4f matrix = matrices.normal();
+    public static void drawBox(VertexConsumer buffer, Vec3 camPos, AABB box, float r, float g, float b, float a) {
+        float[][] corners = getFloats(camPos, box);
 
-        float minX = (float) box.minX;
-        float minY = (float) box.minY;
-        float minZ = (float) box.minZ;
-        float maxX = (float) box.maxX;
-        float maxY = (float) box.maxY;
-        float maxZ = (float) box.maxZ;
+        int[][] edges = {
+                {0,1},{1,3},{3,2},{2,0},
+                {4,5},{5,7},{7,6},{6,4},
+                {0,4},{1,5},{2,6},{3,7}
+        };
 
-        // Bottom
-        line(buffer, matrix, minX, minY, minZ, maxX, minY, minZ, r,g,b,a);
-        line(buffer, matrix, maxX, minY, minZ, maxX, minY, maxZ, r,g,b,a);
-        line(buffer, matrix, maxX, minY, maxZ, minX, minY, maxZ, r,g,b,a);
-        line(buffer, matrix, minX, minY, maxZ, minX, minY, minZ, r,g,b,a);
-
-        // Top
-        line(buffer, matrix, minX, maxY, minZ, maxX, maxY, minZ, r,g,b,a);
-        line(buffer, matrix, maxX, maxY, minZ, maxX, maxY, maxZ, r,g,b,a);
-        line(buffer, matrix, maxX, maxY, maxZ, minX, maxY, maxZ, r,g,b,a);
-        line(buffer, matrix, minX, maxY, maxZ, minX, maxY, minZ, r,g,b,a);
-
-        // Vertical
-        line(buffer, matrix, minX, minY, minZ, minX, maxY, minZ, r,g,b,a);
-        line(buffer, matrix, maxX, minY, minZ, maxX, maxY, minZ, r,g,b,a);
-        line(buffer, matrix, maxX, minY, maxZ, maxX, maxY, maxZ, r,g,b,a);
-        line(buffer, matrix, minX, minY, maxZ, minX, maxY, maxZ, r,g,b,a);
+        for (int[] edge : edges) {
+            float[] p1 = corners[edge[0]];
+            float[] p2 = corners[edge[1]];
+            buffer.addVertex(p1[0], p1[1], p1[2]).setColor(r, g, b, a).setNormal(1, 0, 0).setLineWidth(1);
+            buffer.addVertex(p2[0], p2[1], p2[2]).setColor(r, g, b, a).setNormal(1, 0, 0).setLineWidth(1);
+        }
     }
 
-    private static void line(
-            VertexConsumer buffer,
-            Matrix4f matrix,
-            float x1, float y1, float z1,
-            float x2, float y2, float z2,
-            float r, float g, float b, float a
-    ) {
-        buffer.addVertex(matrix, x1, y1, z1)
-                .setColor(r, g, b, a)
-                .setLineWidth(2.0f)
-                .setNormal(1.0F, 0.0F, 0.0F);
+    private static float[] @NotNull [] getFloats(Vec3 camPos, AABB box) {
+        float minX = (float) (box.minX - camPos.x);
+        float minY = (float) (box.minY - camPos.y);
+        float minZ = (float) (box.minZ - camPos.z);
+        float maxX = (float) (box.maxX - camPos.x);
+        float maxY = (float) (box.maxY - camPos.y);
+        float maxZ = (float) (box.maxZ - camPos.z);
 
-        buffer.addVertex(matrix, x2, y2, z2)
-                .setColor(r, g, b, a)
-                .setLineWidth(2.0f)
-                .setNormal(1.0F, 0.0F, 0.0F);
+        float[][] corners = {
+                {minX, minY, minZ}, {maxX, minY, minZ}, {minX, maxY, minZ}, {maxX, maxY, minZ},
+                {minX, minY, maxZ}, {maxX, minY, maxZ}, {minX, maxY, maxZ}, {maxX, maxY, maxZ}
+        };
+        return corners;
     }
 }
