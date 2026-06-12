@@ -165,3 +165,12 @@ tasks.register("publishAll") {
     group = "publishing"
     dependsOn(tasks.publishMods)
 }
+
+tasks.register("debugTokens") {
+    doLast {
+        println "findProperty modrinth: " + findProperty("modrinth_token")
+        println "findProperty curseforge: " + findProperty("curseforge_token")
+        println "System.getenv MODRINTH: " + System.getenv("MODRINTH_TOKEN")
+        println "System.getenv CURSEFORGE: " + System.getenv("CURSEFORGE_TOKEN")
+    }
+}
