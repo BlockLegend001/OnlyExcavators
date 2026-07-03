@@ -32,7 +32,7 @@ public class OnlyExcavatorsClient implements ClientModInitializer {
         );
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            while (EXCAVATOR_SHOW_OUTLINE_KEY.isDown()) {
+            while (EXCAVATOR_SHOW_OUTLINE_KEY.consumeClick()) {
                 SHOW_OUTLINE_ENABLED = !SHOW_OUTLINE_ENABLED;
 
                 if (client.player != null) {
