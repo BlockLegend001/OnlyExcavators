@@ -114,7 +114,7 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 ModItems.EMERALD_EXCAVATOR,
                 ModItems.NETHERITE_EXCAVATOR));
 
-        builder(ConventionalItemTags.TOOLS).addAll(keys(ModItems.WOODEN_EXCAVATOR,
+        builder(ConventionalItemTags.MINING_TOOL_TOOLS).addAll(keys(ModItems.WOODEN_EXCAVATOR,
                 ModItems.STONE_EXCAVATOR,
                 ModItems.COPPER_EXCAVATOR,
                 ModItems.IRON_EXCAVATOR,
