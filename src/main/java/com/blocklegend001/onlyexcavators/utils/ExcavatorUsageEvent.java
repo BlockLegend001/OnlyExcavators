@@ -1,6 +1,5 @@
 package com.blocklegend001.onlyexcavators.utils;
 
-import com.blocklegend001.onlyexcavators.OnlyExcavatorsClient;
 import com.blocklegend001.onlyexcavators.item.custom.Excavator;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
@@ -28,6 +27,7 @@ public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
 
         ItemStack mainHandItem = player.getMainHandStack();
         if (!(mainHandItem.getItem() instanceof Excavator excavator)) return true;
+        if (state.getHardness(world, pos) == 0.0F)  return true;
 
         if (HARVESTED_BLOCKS.contains(pos)) return true;
 
