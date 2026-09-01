@@ -1,1 +1,2 @@
-- Bug fix
+- Small bug fix
+- Added Hungarian Language
