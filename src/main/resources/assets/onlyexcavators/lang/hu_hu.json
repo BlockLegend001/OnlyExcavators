@@ -13,5 +13,5 @@
   "key.category.onlyexcavators.showoutline": "Csak Feltárók",
   "key.onlyexcavators.showoutline": "Körvonal Engedélyezése/Letiltása",
 
-  "itemGroup.onlyexcavators": "Csak Feltárók"
+  "itemGroup.onlyexcavators.onlyexcavators": "Csak Feltárók"
 }
