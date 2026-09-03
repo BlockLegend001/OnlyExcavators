@@ -1,0 +1,17 @@
+{
+  "item.onlyexcavators.wooden_excavator": "Fafeltáró",
+  "item.onlyexcavators.stone_excavator": "Kőfeltáró",
+  "item.onlyexcavators.iron_excavator": "Vasfeltáró",
+  "item.onlyexcavators.gold_excavator": "Aranyfeltáró",
+  "item.onlyexcavators.lapis_excavator": "Lazuritfeltáró",
+  "item.onlyexcavators.redstone_excavator": "Vöröskőfeltáró",
+  "item.onlyexcavators.diamond_excavator": "Gyémántfeltáró",
+  "item.onlyexcavators.emerald_excavator": "Smaragdfeltáró",
+  "item.onlyexcavators.obsidian_excavator": "Obszidiánfeltáró",
+  "item.onlyexcavators.netherite_excavator": "Netheritfeltáró",
+
+  "key.category.onlyexcavators.showoutline": "Csak Feltárók",
+  "key.onlyexcavators.showoutline": "Körvonal Engedélyezése/Letiltása",
+
+  "itemGroup.onlyexcavators": "Csak Feltárók"
+}
