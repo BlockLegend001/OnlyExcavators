@@ -1,2 +1,3 @@
-- Small bug fix
+- Small Bug Fix
 - Added Hungarian Language
+- Added ModMenu Integration
