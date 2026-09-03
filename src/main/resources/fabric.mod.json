@@ -7,7 +7,11 @@
   "authors": [
     "Block_Legend001"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://blocklegend001.dev",
+    "sources": "https://github.com/BlockLegend001/OnlyExcavators",
+    "issues": "https://github.com/BlockLegend001/OnlyExcavators/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/onlyexcavators/textures/item/netherite_excavator.png",
   "environment": "*",
@@ -21,6 +25,13 @@
     "fabric-datagen": [
       "com.blocklegend001.onlyexcavators.datagen.ModDataGeneration"
     ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jVmUTGFMX5"
+      }
+    }
   },
   "mixins": [
     "onlyexcavators.mixins.json"
