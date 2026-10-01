@@ -1,5 +1,6 @@
 // 26.2	-999999999-01-01T00:00:00	OnlyExcavators/Tags for minecraft:item
-32d298c79db5c0348bee0a96aa43cd79f3fd4833 data/c/tags/item/tools.json
+9b5693d46477bf31e3ac5b3ce28cd19c4608d1a3 data/c/tags/item/tools.json
+9b5693d46477bf31e3ac5b3ce28cd19c4608d1a3 data/c/tags/item/tools/mining_tool.json
 9b5693d46477bf31e3ac5b3ce28cd19c4608d1a3 data/minecraft/tags/item/breaks_decorated_pots.json
 9b5693d46477bf31e3ac5b3ce28cd19c4608d1a3 data/minecraft/tags/item/enchantable/durability.json
 9b5693d46477bf31e3ac5b3ce28cd19c4608d1a3 data/minecraft/tags/item/enchantable/mining.json
